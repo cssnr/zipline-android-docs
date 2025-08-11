@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview .",
+    "prettier": "npx prettier --check ."
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
