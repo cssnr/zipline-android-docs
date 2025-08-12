@@ -31,7 +31,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/docs/home', activeMatch: '^/docs/' },
-      { text: 'Guides', link: '/guides/uploading' },
+      { text: 'Guides', link: '/guides/setup', activeMatch: '^/guides/(?!support)' },
       { text: 'Support', link: '/guides/support' },
       {
         text: 'Links',
@@ -57,6 +57,7 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
+          { text: 'Setup', link: '/guides/setup' },
           { text: 'Uploading', link: '/guides/uploading' },
           { text: 'Support', link: '/guides/support' },
         ],
@@ -82,14 +83,15 @@ export default defineConfig({
       },
     },
 
-    // search: {
-    //   provider: 'algolia',
-    //   options: {
-    //     appId: 'XXX',
-    //     apiKey: '123456',
-    //     indexName: 'zipline-android',
-    //   },
-    // },
+    search: {
+      provider: 'local',
+      // provider: 'algolia',
+      // options: {
+      //   appId: 'C5CAXNAV8S',
+      //   apiKey: '2485bd6cfe2823fac3a521edb6a3652f',
+      //   indexName: 'zipline-android-docs',
+      // },
+    },
 
     // outline: 'deep',
   },

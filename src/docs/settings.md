@@ -86,20 +86,20 @@ This is how frequently the application updates data from the server in the backg
 
 Set this to `Disabled` prevent any background updates.
 
-::: tip NOTE
-If disabled you will need to manually update your profile to show external changes.
-:::
-
 You can enable or disabling updating the following data:
 
 - User Stats (required for Widget)
 - User Profile
 - User Avatar
 
-::: warning IMPORTANT
+::: tip NOTE
 The only way to disable the background task is to set **Update Interval** to `Disabled`.
 :::
 
 ## Debugging
 
 Enabling debugging will log various actions, such as background updates and login attempts, to a file for later review.
+
+::: details Click Here for more details
+You can view the currently configured logging [on GitHub](https://github.com/search?q=repo%3Acssnr%2Fzipline-android%20.debuglog%28%22&type=code) (if logged in).
+:::

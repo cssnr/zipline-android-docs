@@ -26,3 +26,7 @@ You will have the option to edit the text, link, file name, or vanity url before
 
 Similar to files, the resulting URL is automatically copied to the clipboard,
 and the [share dialog](../docs/settings.md#show-share-after-upload) can be enabled show automatically.
+
+::: tip NOTE
+If you have any trouble using the application, [support is available](./support.md).
+:::

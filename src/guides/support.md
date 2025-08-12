@@ -4,7 +4,7 @@ outline: deep
 
 # Support
 
-If you have any problem using the application, or run into any issues, please let us know!
+If you have any troubles using the application, or run into any issues, please let us know!
 
 I will fix every bug I can reproduce and prioritize any feature that is currently logical.
 

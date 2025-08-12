@@ -14,7 +14,7 @@ hero:
       link: /docs/home
       theme: brand
     - text: Guides
-      link: /guides/uploading
+      link: /guides/setup
       theme: alt
     - text: Support
       link: /guides/support
@@ -25,9 +25,9 @@ features:
     details: Review Features and Options.
     link: /docs/home
   - title: Guides
-    details: View Usage Guides.
-    link: /guides/uploading
+    details: View Setup and Usage Guides.
+    link: /guides/setup
   - title: Support
-    details: Get Help.
+    details: Get Help with Anything.
     link: /guides/support
 ---
