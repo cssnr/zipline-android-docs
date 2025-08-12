@@ -6,9 +6,9 @@ on:
       - "master"
     paths:
       - "docs/**"
+      - ".vitepress/**"
       - "package.json"
       - ".github/workflows/pages.yaml"
-      - ".vitepress/**"
   workflow_dispatch:
 
 permissions:

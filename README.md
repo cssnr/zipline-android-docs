@@ -11,7 +11,9 @@
 
 # Zipline Android Documentation
 
-Documentation for the [Zipline Upload](https://github.com/cssnr/zipline-android) Android Application.
+Documentation site for the [Zipline Android](https://github.com/cssnr/zipline-android) Application.
+
+- https://zipline-android.cssnr.com/
 
 ## Install
 
