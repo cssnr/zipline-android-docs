@@ -6,15 +6,9 @@ outline: deep
 
 If you have any troubles using the application, or run into any issues, please let us know!
 
-I will fix every bug I can reproduce and prioritize any feature that is currently logical.
+Every bug that can be reproduced will be fixed and Feature Request are highly desired.
 
-Contributing is as easy as telling us what [feature](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) you want to see next...
-
-### Discord
-
-[https://discord.gg/wXy6m2X8wY](https://discord.gg/wXy6m2X8wY)
-
-You can chat with us about anything here or contact me directly, `Shane@111150265075298304`.
+Contributing is as easy as telling us [what feature](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) you want to see next...
 
 ### GitHub Discussions
 
@@ -33,7 +27,13 @@ the [Feature Requests](https://github.com/cssnr/zipline-android/discussions/cate
 
 If you find a bug or run into an issue, please report it.
 
-These reports are treated with the highest priority.
+**These reports are treated with the highest priority.**
+
+### Discord
+
+[https://discord.gg/wXy6m2X8wY](https://discord.gg/wXy6m2X8wY)
+
+You can chat with us about anything here or contact me directly, `Shane@111150265075298304`.
 
 ### General Feedback
 
@@ -41,4 +41,4 @@ These reports are treated with the highest priority.
 
 You can submit general feedback via the web form.
 
-This method is not recommended to report issues or request features.
+_This method is not recommended to report issues or request features._
