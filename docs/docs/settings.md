@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # Settings Page
 
 The Settings page lets you configure how the application works.
