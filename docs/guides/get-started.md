@@ -2,21 +2,27 @@
 
 Get started by installing the application and logging into your server.
 
-[[toc]]
+To begin you will need the following:
 
-_Note: if you have already the application setup, you can [start uploading](./uploading.md)._
+1. Android Device
+2. Zipline Server
+
+Then complete these tasks:
+
+- [Server](#server)
+- [Install](#install)
+- [Login](#login)
+- [Uploading](./uploading.md)
 
 ## Server
 
 This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
 
-You should be able to access and log into the Zipline Dashboard in a web browser.
-
-If not you can [get started](https://zipline.diced.sh/docs/get-started) here.
+If not you can [get started](https://zipline.diced.sh/docs/get-started) with a zipline server.
 
 ## Install
 
-First you need to install the application on your phone (Android only).
+First you need to install the application on your device (Android only).
 
 ::: tip NOTE
 Google Play is in Beta Testing.
@@ -35,8 +41,8 @@ To join please see [this discussion](https://github.com/cssnr/zipline-android/di
     </a>
 </div>
 
-To install the apk directly you may need to allow installation from unknown sources.
-For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website).
+_To install the apk directly you may need to allow installation from unknown sources.
+For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website)._
 
 [![GitHub Version](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Version)](https://github.com/cssnr/zipline-android/releases/latest)
 
@@ -53,6 +59,8 @@ To log in you need to enter your Zipline Server URL, Username and Password.
 You can copy the URL from your web browser and remove the `/dashboard` from the end.
 
 If you have Two-Factor enabled you will be prompted to enter a code after successful login.
+
+Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
 ::: tip NOTE
 If you have any trouble setting up the application, [support is available](../support.md).

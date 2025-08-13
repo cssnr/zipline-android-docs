@@ -2,6 +2,8 @@
 
 You can share any media to Zipline, including files, text, and links (to shorten).
 
+[[toc]]
+
 ## Files
 
 1. From any application, select any file, or multiple files.
@@ -12,7 +14,7 @@ This will open the selected file(s) in the Zipline Application where you can pre
 verify the selection, and set options before uploading.
 
 After uploading the URL(s) are automatically copied to the clipboard,
-and if enabled, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
+and if enabled in settings, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
 
 ## Text or URL
 
@@ -25,7 +27,7 @@ This works the same as Files, except you select text or links, then choose Share
 You will have the option to edit the text, link, file name, or vanity URL before proceeding.
 
 Similar to files, the resulting URL is automatically copied to the clipboard,
-and the [share dialog](../docs/settings.md#show-share-after-upload) can be enabled show automatically.
+and the [share dialog](../docs/settings.md#show-share-after-upload) can be automatically shown.
 
 ::: tip NOTE
 If you have any trouble using the application, [support is available](../support.md).
