@@ -22,8 +22,6 @@ These docs are built with [VitePress](https://vitepress.dev/) and are written in
 | [docs/public](docs/public) | Static Root (copied to docs root).   |
 | [.vitepress](.vitepress)   | VitePress Configuration directory.   |
 
-[VitePress Markdown Reference](https://vitepress.dev/guide/markdown)
-
 ## Development
 
 To get started, clone the repository and run `npm install` then `npm run dev`.
@@ -35,7 +33,8 @@ npm run dev
 
 The site should now be available at: http://localhost:5173/
 
-[VitePress CLI Reference](https://vitepress.dev/reference/cli)
+- [VitePress CLI Reference](https://vitepress.dev/reference/cli)
+- [VitePress Markdown Reference](https://vitepress.dev/guide/markdown)
 
 # Contributing
 
