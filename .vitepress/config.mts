@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: './src',
+  srcDir: './docs',
   // base: '/path/',
   vite: {
     server: {
@@ -74,7 +74,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/cssnr/zipline-android-docs/blob/master/src/:path',
+      pattern: 'https://github.com/cssnr/zipline-android-docs/blob/master/docs/:path',
       text: 'View on GitHub',
     },
 
