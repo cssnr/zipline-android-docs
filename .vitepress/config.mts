@@ -30,8 +30,8 @@ export default defineConfig({
     logo: '/images/logo-sm.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guides', link: '/guides/setup', activeMatch: '^/guides/' },
-      { text: 'Documentation', link: '/docs/home', activeMatch: '^/docs/' },
+      { text: 'Guides', link: '/guides/get-started', activeMatch: '^/guides/' },
+      { text: 'Docs', link: '/docs/home', activeMatch: '^/docs/' },
       { text: 'Support', link: '/support' },
       {
         text: 'Links',
@@ -48,7 +48,7 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Setup', link: '/guides/setup' },
+          { text: 'Get Started', link: '/guides/get-started' },
           { text: 'Uploading', link: '/guides/uploading' },
         ],
       },

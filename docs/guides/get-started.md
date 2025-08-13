@@ -1,8 +1,10 @@
-# Setup
+# Get Started
 
 Get started by installing the application and logging into your server.
 
 [[toc]]
+
+_Note: if you have already the application setup, you can [start uploading](./uploading.md)._
 
 ## Server
 
