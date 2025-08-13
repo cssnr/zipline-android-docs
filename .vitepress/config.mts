@@ -30,9 +30,9 @@ export default defineConfig({
     logo: '/images/logo-sm.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/docs/home', activeMatch: '^/docs/' },
-      { text: 'Guides', link: '/guides/setup', activeMatch: '^/guides/(?!support)' },
-      { text: 'Support', link: '/guides/support' },
+      { text: 'Guides', link: '/guides/setup', activeMatch: '^/guides/' },
+      { text: 'Documentation', link: '/docs/home', activeMatch: '^/docs/' },
+      { text: 'Support', link: '/support' },
       {
         text: 'Links',
         items: [
@@ -46,7 +46,14 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Docs',
+        text: 'Guides',
+        items: [
+          { text: 'Setup', link: '/guides/setup' },
+          { text: 'Uploading', link: '/guides/uploading' },
+        ],
+      },
+      {
+        text: 'Documentation',
         items: [
           { text: 'Home', link: '/docs/home' },
           { text: 'Files', link: '/docs/files' },
@@ -55,12 +62,8 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Guides',
-        items: [
-          { text: 'Setup', link: '/guides/setup' },
-          { text: 'Uploading', link: '/guides/uploading' },
-          { text: 'Support', link: '/guides/support' },
-        ],
+        text: 'Support',
+        items: [{ text: 'Support', link: '/support' }],
       },
     ],
 
@@ -72,7 +75,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/cssnr/zipline-android-docs/blob/master/src/:path',
-      text: 'Edit on GitHub',
+      text: 'View on GitHub',
     },
 
     lastUpdated: {
