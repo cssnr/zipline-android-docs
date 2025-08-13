@@ -38,6 +38,12 @@ For more information see, [Release through a website](https://developer.android.
 
 [![GitHub Version](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Version)](https://github.com/cssnr/zipline-android/releases/latest)
 
+::: info UPDATE NOTICE
+If you install the .apk directly there is no in-app update check.
+Because of this [Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android)
+or [Google Play](https://play.google.com/store/apps/details?id=org.cssnr.zipline) is recommended.
+:::
+
 ## Login
 
 To log in you need to enter your Zipline Server URL, Username and Password.
@@ -47,7 +53,7 @@ You can copy the URL from your web browser and remove the `/dashboard` from the 
 If you have Two-Factor enabled you will be prompted to enter a code after successful login.
 
 ::: tip NOTE
-If you have any trouble setting up the application, [support is available](./support.md).
+If you have any trouble setting up the application, [support is available](../support.md).
 :::
 
-You can now start [uploading](./uploading.md) files and text, and shorten URLs.
+You can now start [uploading](./uploading.md) files and text, and shortening URLs.

@@ -22,11 +22,11 @@ This works the same as Files, except you select text or links, then choose Share
 2. Click the Share option and select **Zipline** as the destination.
 3. Verify, edit, and optionally set a Vanity for Links before uploading.
 
-You will have the option to edit the text, link, file name, or vanity url before proceeding.
+You will have the option to edit the text, link, file name, or vanity URL before proceeding.
 
 Similar to files, the resulting URL is automatically copied to the clipboard,
 and the [share dialog](../docs/settings.md#show-share-after-upload) can be enabled show automatically.
 
 ::: tip NOTE
-If you have any trouble using the application, [support is available](./support.md).
+If you have any trouble using the application, [support is available](../support.md).
 :::

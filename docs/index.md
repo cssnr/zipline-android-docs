@@ -10,24 +10,24 @@ hero:
     src: /images/logo-lg.png
     alt: Zipline Android
   actions:
-    - text: Documentation
-      link: /docs/home
-      theme: brand
     - text: Guides
       link: /guides/setup
+      theme: brand
+    - text: Documentation
+      link: /docs/home
       theme: alt
     - text: Support
-      link: /guides/support
+      link: /support
       theme: alt
 
 features:
-  - title: Documentation
-    details: Review Features and Options.
-    link: /docs/home
   - title: Guides
     details: View Setup and Usage Guides.
     link: /guides/setup
+  - title: Documentation
+    details: Review Features and Options.
+    link: /docs/home
   - title: Support
     details: Get Help with Anything.
-    link: /guides/support
+    link: /support
 ---
