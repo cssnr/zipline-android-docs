@@ -30,3 +30,5 @@ and the [share dialog](../docs/settings.md#show-share-after-upload) can be enabl
 ::: tip NOTE
 If you have any trouble using the application, [support is available](../support.md).
 :::
+
+You can now use the [file list](../docs/files.md) to view, edit, and download files.
