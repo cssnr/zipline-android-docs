@@ -4,7 +4,7 @@ const settings = {
   author: 'Shane',
   title: 'Zipline Android',
   name: 'Zipline Android Documentation',
-  description: 'Documentation for the Zipline Android Android Application',
+  description: 'Documentation for the Zipline Android Application.',
 }
 
 // https://vitepress.dev/reference/site-config
@@ -56,8 +56,8 @@ export default defineConfig({
       {
         text: 'Links',
         items: [
-          { text: 'Zipline Android Source Code', link: 'https://github.com/cssnr/zipline-android' },
-          { text: 'Documentation Source Code', link: 'https://github.com/cssnr/zipline-android-docs' },
+          { text: 'Zipline Android GitHub', link: 'https://github.com/cssnr/zipline-android' },
+          { text: 'Documentation GitHub', link: 'https://github.com/cssnr/zipline-android-docs' },
           { text: 'Diced Zipline Server', link: 'https://github.com/diced/zipline' },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },

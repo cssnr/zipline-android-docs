@@ -14,20 +14,20 @@ Documentation for the [Zipline Android](https://github.com/cssnr/zipline-android
 
 - https://zipline-android.cssnr.com/
 
-These docs are built with [VitePress](https://vitepress.dev/) and are written in plain text using markdown.
+These [docs](docs) are **written in plain text** using Markdown and built with [VitePress](https://vitepress.dev/).
 
 | Location                   | Description                          |
 | -------------------------- | ------------------------------------ |
-| [docs](docs)               | Documentation Root (Markdown Files). |
+| [docs](docs)               | Documentation Root (Markdown files). |
 | [docs/public](docs/public) | Static Root (copied to docs root).   |
-| [.vitepress](.vitepress)   | VitePress Configuration directory.   |
+| [.vitepress](.vitepress)   | VitePress Configuration Root.        |
 
 ## Development
 
-To get started, clone the repository and run `npm install` then `npm run dev`.
+To get started, clone the repository and run `npm i` then `npm run dev`.
 
 ```shell
-npm i
+npm install
 npm run dev
 ```
 
