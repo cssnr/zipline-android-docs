@@ -39,7 +39,7 @@ export default defineConfig({
     ['meta', { property: 'twitter:site', content: settings.name }],
     ['meta', { property: 'twitter:title', content: settings.title }],
     ['meta', { property: 'twitter:description', content: settings.description }],
-    ['meta', { property: 'twitter:image', content: '/branding/logo-lg.png' }],
+    ['meta', { property: 'twitter:image', content: '/images/logo-lg.png' }],
     ['meta', { property: 'twitter:image:alt', content: settings.title }],
   ],
 
