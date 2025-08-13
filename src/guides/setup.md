@@ -53,7 +53,7 @@ You can copy the URL from your web browser and remove the `/dashboard` from the 
 If you have Two-Factor enabled you will be prompted to enter a code after successful login.
 
 ::: tip NOTE
-If you have any trouble setting up the application, [support is available](./support.md).
+If you have any trouble setting up the application, [support is available](../support.md).
 :::
 
 You can now start [uploading](./uploading.md) files and text, and shortening URLs.

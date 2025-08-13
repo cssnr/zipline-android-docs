@@ -28,5 +28,5 @@ Similar to files, the resulting URL is automatically copied to the clipboard,
 and the [share dialog](../docs/settings.md#show-share-after-upload) can be enabled show automatically.
 
 ::: tip NOTE
-If you have any trouble using the application, [support is available](./support.md).
+If you have any trouble using the application, [support is available](../support.md).
 :::
