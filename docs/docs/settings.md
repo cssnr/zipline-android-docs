@@ -96,6 +96,8 @@ The only way to disable the background task is to set **Update Interval** to `Di
 
 Enabling debugging will log various actions, such as background updates and login attempts, to a file for later review.
 
+This simply appends log lines to a text file which is shown in reverse in the application (newest lines at the top). You can clear it at any time from the settings.
+
 ::: details Click Here for more details
-You can view the currently configured logging [on GitHub](https://github.com/search?q=repo%3Acssnr%2Fzipline-android%20.debuglog%28%22&type=code) (if logged in).
+You can view the currently configured logging [on GitHub](https://github.com/search?q=repo%3Acssnr%2Fzipline-android%20debuglog%28%22&type=code) (if logged in).
 :::

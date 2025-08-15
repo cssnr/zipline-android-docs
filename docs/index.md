@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Zipline Android
   text: Documentation
-  tagline: Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 Upload Server.
+  tagline: Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.
   image:
     src: /images/logo-lg.png
     alt: Zipline Android

@@ -14,7 +14,7 @@ This will open the selected file(s) in the Zipline Application where you can pre
 verify the selection, and set options before uploading.
 
 After uploading the URL(s) are automatically copied to the clipboard,
-and if enabled in settings, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
+and if enabled, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
 
 ## Text or URL
 

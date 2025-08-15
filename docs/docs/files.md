@@ -31,3 +31,11 @@ The Files page loads your recent files from the server.
 - Download
 - Delete
 - Favorite
+
+## File Preview
+
+Click on any file to view a preview. Previews exist for the following media types:
+
+- Video and Audio Files _([Media3](https://github.com/androidx/media))_
+- Images and Animated Graphics _([Glide](https://github.com/bumptech/glide))_
+- Text with Syntax Highlighting _([HighlightJS](https://github.com/highlightjs/highlight.js))_
