@@ -14,6 +14,10 @@ Then complete these tasks:
 - [Login](#login)
 - [Uploading](./uploading.md)
 
+::: tip SCREENSHOTS
+You can view screenshots [on GitHub](https://github.com/cssnr/zipline-android/?tab=readme-ov-file#Screenshots).
+:::
+
 ## Server
 
 This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
@@ -62,10 +66,8 @@ If you have Two-Factor enabled you will be prompted to enter a code after succes
 
 Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
-::: tip NOTE
-If you have any trouble setting up the application, [support is available](../support.md).
-:::
-
 You can now start [uploading](./uploading.md) files and text, and shorten URLs.
 
-_Tip: Screenshots are [available on GitHub](https://github.com/cssnr/zipline-android/?tab=readme-ov-file#Screenshots)._
+::: tip GET HELP
+If you have any trouble getting started, [support is available](../support.md).
+:::

@@ -13,7 +13,9 @@ Native Features:
 - [Files](./files.md)
 - [User](./user.md)
 - [Settings](./settings.md)
-- [Uploading](../guides/uploading.md)
+- [Upload](./upload.md)
+
+_There is also an [Uploading Guide](../guides/uploading.md)._
 
 ## Technical
 
