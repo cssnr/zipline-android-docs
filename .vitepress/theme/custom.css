@@ -6,15 +6,26 @@
     --vp-home-hero-image-background-image: linear-gradient(0deg, #344398 80%, #344398 50%);
 }
 
+/*!* Set home page bottom margin *!*/
 /*.VPHome {*/
 /*    margin-bottom: 48px !important;*/
 /*}*/
 
+/*!* Remove inline-block from images *!*/
 /*@media (min-width: 768px) {*/
 /*    .vp-doc a img {*/
 /*        display: inline !important;*/
 /*    }*/
 /*}*/
+
+/*!* Force Features to max 3 columns *!*/
+/*@media (min-width: 960px) {*/
+/*    .VPFeatures .items .item.grid-4 {*/
+/*        width: calc(100% / 3);*/
+/*    }*/
+/*}*/
+
+/* Custom CSS */
 
 div.flex-images {
     display: flex;
