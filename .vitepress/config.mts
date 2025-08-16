@@ -78,8 +78,9 @@ export default defineConfig({
         items: [
           { text: 'Home', link: '/docs/home' },
           { text: 'Files', link: '/docs/files' },
-          { text: 'Users', link: '/docs/user' },
+          { text: 'User', link: '/docs/user' },
           { text: 'Settings', link: '/docs/settings' },
+          { text: 'Upload', link: '/docs/upload' },
         ],
       },
       {
