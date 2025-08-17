@@ -2,10 +2,12 @@
 
 Get started by [installing](#install) the application and logging into your server.
 
-To begin you will need the following:
+To proceed you will need the following:
 
-1. Android Device - _Android 8+ (API 26+) or Newer_
-2. Zipline Server - _Version 4 Only_
+1. Android Device _(Android 8+, API 26+, or Newer)_
+2. Zipline Server _(Version 4 Only)_
+
+Complete these tasks:
 
 - [Server](#server)
 - [Install](#install)
@@ -24,7 +26,7 @@ If not you can [get started](https://zipline.diced.sh/docs/get-started) with a z
 
 ## Install
 
-First you need to install the application on your device (Android only).
+To begin install the application on your device _(Android only)_.
 
 <div class="flex-images">
     <a title="GitHub" href="https://github.com/cssnr/zipline-android/releases/latest/download/app-release.apk" target="_blank" rel="noopener">
@@ -64,8 +66,8 @@ If you have Two-Factor enabled you will be prompted to enter a code after succes
 
 Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
-You can now start [uploading](./uploading.md) files and text, and shorten URLs.
-
 ::: tip GET HELP
 If you have any trouble getting started, [support is available](../support.md).
 :::
+
+You can now start [uploading](./uploading.md) files and text, and shorten URLs.

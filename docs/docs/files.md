@@ -8,6 +8,8 @@ The Files page loads your recent files from the server.
 - Media is cached and does not download over metered connections [unless enabled](./settings.md#load-images-on-metered-connection).
 - Clicking on an item opens a preview and downloads it from the server if not cached.
 
+[[toc]]
+
 ## List Display
 
 - File Preview (Images and Videos)

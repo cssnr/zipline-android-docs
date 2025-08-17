@@ -6,19 +6,30 @@ The User page allows editing your user profile and settings.
 This page was released for functionality. The User Experience and Design are being improved.
 :::
 
+[[toc]]
+
 ## All Users
 
-- Refresh User Profile
+The following details can be directly managed:
+
 - Copy Auth Token
 - Change Username
 - Change Password
 - Enable/Disable TOTP
-- Refresh Avatar
-- Change Avatar
-- Share Avatar
+- Change Avatar (allows cropping)
 - Remove Avatar
 
+Additionally, you can:
+
+- Refresh Profile
+- Refresh Stats
+- Refresh Avatar
+- Share Avatar
+- Log Out
+
 ## Administrators
+
+The following administrative tasks can be run:
 
 - Generate Thumbnails
 - Clear Temp Files
