@@ -1,6 +1,6 @@
 [![Pages](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/pages.yaml?logo=github&label=pages)](https://github.com/cssnr/zipline-android-docs/actions/workflows/pages.yaml)
 [![Lint](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/lint.yaml?logo=github&label=lint)](https://github.com/cssnr/zipline-android-docs/actions/workflows/lint.yaml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=github&label=updated)](https://github.com/cssnr/zipline-android-docs/graphs/commit-activity)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/zipline-android-docs/graphs/commit-activity)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zipline-android-docs?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/zipline-android-docs)
 [![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/zipline-android?logo=github)](https://github.com/cssnr/zipline-android/discussions)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/zipline-android?style=flat&logo=github)](https://github.com/cssnr/zipline-android/stargazers)
@@ -16,11 +16,12 @@ Documentation for the [Zipline Android](https://github.com/cssnr/zipline-android
 
 These [docs](docs) are **written in plain text** using Markdown and built with [VitePress](https://vitepress.dev/).
 
-| Location                   | Description                          |
-| -------------------------- | ------------------------------------ |
-| [docs](docs)               | Documentation Root (Markdown files). |
-| [docs/public](docs/public) | Static Root (copied to docs root).   |
-| [.vitepress](.vitepress)   | VitePress Configuration Root.        |
+| Location                                       | Description                          |
+| ---------------------------------------------- | ------------------------------------ |
+| [docs](docs)                                   | Documentation Root (Markdown files). |
+| [docs/public](docs/public)                     | Static Root (copied to docs root).   |
+| [.vitepress](.vitepress)                       | VitePress Configuration Root.        |
+| [.vitepress/config.mts](.vitepress/config.mts) | VitePress Configuration File.        |
 
 ## Development
 
