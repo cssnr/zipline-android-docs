@@ -4,6 +4,8 @@ This section documents the upload dialogs shown when sharing files, text and URL
 
 The available options are listed at the bottom of each section.
 
+[[toc]]
+
 ## Upload File
 
 When sharing a single file a preview similar to the [file list preview](./files.md#file-preview) is shown.

@@ -13,6 +13,9 @@ hero:
     - text: Get Started
       link: /guides/get-started
       theme: brand
+    - text: Install
+      link: /guides/get-started#install
+      theme: brand
     - text: Documentation
       link: /docs/home
       theme: alt
