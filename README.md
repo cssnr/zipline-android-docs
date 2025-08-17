@@ -1,6 +1,6 @@
 [![Pages](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/pages.yaml?logo=github&label=pages)](https://github.com/cssnr/zipline-android-docs/actions/workflows/pages.yaml)
 [![Lint](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/lint.yaml?logo=github&label=lint)](https://github.com/cssnr/zipline-android-docs/actions/workflows/lint.yaml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/zipline-android-docs/graphs/commit-activity)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/zipline-android-docs/pulse)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zipline-android-docs?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/zipline-android-docs)
 [![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/zipline-android?logo=github)](https://github.com/cssnr/zipline-android/discussions)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/zipline-android?style=flat&logo=github)](https://github.com/cssnr/zipline-android/stargazers)
