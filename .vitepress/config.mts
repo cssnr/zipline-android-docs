@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 const settings = {
-  author: 'Shane',
   title: 'Zipline Android',
   name: 'Zipline Android Documentation',
-  description: 'Documentation for the Zipline Android Application.',
+  description: {
+    short: 'Documentation for the Zipline Upload Android Application.',
+    long: 'Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.',
+  },
 }
 
 // https://vitepress.dev/reference/site-config
@@ -18,27 +20,25 @@ export default defineConfig({
   },
 
   title: settings.title,
-  description: settings.description,
+  description: settings.description.short,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
     ['meta', { name: 'darkreader-lock' }],
 
     ['meta', { name: 'theme-color', content: '#344398' }],
-    ['meta', { name: 'author', content: settings.author }],
-    ['meta', { name: 'description', content: settings.description }],
+    ['meta', { name: 'description', content: settings.description.long }],
 
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:author', content: settings.author }],
     ['meta', { property: 'og:site_name', content: settings.name }],
     ['meta', { property: 'og:title', content: settings.title }],
-    ['meta', { property: 'og:description', content: settings.description }],
+    ['meta', { property: 'og:description', content: settings.description.short }],
     ['meta', { property: 'og:image', content: '/images/logo-lg.png' }],
     ['meta', { property: 'og:image:alt', content: settings.title }],
 
     ['meta', { property: 'twitter:card', content: 'summary' }],
     ['meta', { property: 'twitter:site', content: settings.name }],
     ['meta', { property: 'twitter:title', content: settings.title }],
-    ['meta', { property: 'twitter:description', content: settings.description }],
+    ['meta', { property: 'twitter:description', content: settings.description.short }],
     ['meta', { property: 'twitter:image', content: '/images/logo-lg.png' }],
     ['meta', { property: 'twitter:image:alt', content: settings.title }],
   ],
@@ -81,6 +81,7 @@ export default defineConfig({
           { text: 'User', link: '/docs/user' },
           { text: 'Settings', link: '/docs/settings' },
           { text: 'Upload', link: '/docs/upload' },
+          { text: 'Widget', link: '/docs/widget' },
         ],
       },
       {
@@ -123,6 +124,11 @@ export default defineConfig({
       //   indexName: 'zipline-android-docs',
       // },
     },
+
+    // footer: {
+    //   message: '<a href="/privacy">Privacy Policy</a>',
+    //   copyright: '<a href="/privacy">Privacy Policy</a>',
+    // },
 
     outline: 'deep',
   },

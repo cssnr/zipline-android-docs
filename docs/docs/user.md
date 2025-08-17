@@ -2,6 +2,10 @@
 
 The User page allows editing your user profile and settings.
 
+::: tip NOTE
+This page was released for functionality. The User Experience and Design are being improved.
+:::
+
 ## All Users
 
 - Refresh User Profile

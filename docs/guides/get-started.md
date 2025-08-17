@@ -4,10 +4,8 @@ Get started by [installing](#install) the application and logging into your serv
 
 To begin you will need the following:
 
-1. Android Device
-2. Zipline Server
-
-Then complete these tasks:
+1. Android Device - _Android 8+ (API 26+) or Newer_
+2. Zipline Server - _Version 4 Only_
 
 - [Server](#server)
 - [Install](#install)
