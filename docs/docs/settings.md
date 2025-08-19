@@ -92,6 +92,8 @@ You can enable or disabling updating the following data:
 The only way to disable the background task is to set **Update Interval** to `Disabled`.
 :::
 
+For more details on updates see [Widget - Updates](./widget.md#updates).
+
 ## Debugging
 
 Enabling debugging will log various actions, such as background updates and login attempts, to a file for later review.

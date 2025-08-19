@@ -4,7 +4,7 @@ If you have any troubles using the application, or run into any issues, please l
 
 Every bug that can be reproduced will be fixed and Feature Request are highly desired.
 
-Contributing is as easy as telling us [what features](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) you want to see next...
+Contributing is as easy as telling us [what features](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) you want to see next…
 
 ### GitHub Discussions
 

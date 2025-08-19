@@ -41,6 +41,8 @@ Choose which tasks run:
 - Profile
 - Avatar _(may increase data usage)_
 
+For more details on updates see [Settings - Update Interval](./settings#update-interval).
+
 ## Display
 
 You can customize look and feel of the widget:

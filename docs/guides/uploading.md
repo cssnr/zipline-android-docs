@@ -17,8 +17,8 @@ If you have any trouble using the application, [support is available](../support
 This will open the selected file(s) in the Zipline Application where you can preview them,
 verify the selection, and set options before uploading.
 
-After uploading the URL(s) are automatically copied to the clipboard,
-and if enabled, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
+After uploading the URL(s) are automatically copied to the clipboard
+and, if enabled, the [share dialog](../docs/settings.md#show-share-after-upload) will be shown.
 
 You can now use the [file list](../docs/files.md) to view, edit, and download files.
 

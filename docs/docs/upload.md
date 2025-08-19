@@ -6,6 +6,8 @@ The available options are listed at the bottom of each section.
 
 [[toc]]
 
+_There is also an [Uploading Guide](../guides/uploading.md)._
+
 ## Upload File
 
 When sharing a single file a preview similar to the [file list preview](./files.md#file-preview) is shown.
