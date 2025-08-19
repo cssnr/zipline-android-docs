@@ -4,7 +4,7 @@ Get started by [installing](#install) the application and logging into your serv
 
 To proceed you will need the following:
 
-1. Android Device _(Android 8+, API 26+, or Newer)_
+1. Android Device _(Android 8+ API 26+)_
 2. Zipline Server _(Version 4 Only)_
 
 Complete these tasks:
@@ -22,7 +22,7 @@ You can view screenshots [on GitHub](https://github.com/cssnr/zipline-android/?t
 
 This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
 
-If not you can [get started](https://zipline.diced.sh/docs/get-started) with a zipline server.
+If not you can [get started here](https://zipline.diced.sh/docs/get-started).
 
 ## Install
 

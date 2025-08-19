@@ -10,6 +10,7 @@ const settings = {
 }
 
 // https://vitepress.dev/reference/site-config
+// noinspection JSUnusedGlobalSymbols
 export default defineConfig({
   srcDir: './docs',
   // base: '/path/',
