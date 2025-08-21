@@ -2,12 +2,12 @@
 
 Get started by [installing](#install) the application and logging into your server.
 
-To proceed you will need the following:
+Requirements:
 
 1. Android Device _(Android 8+ API 26+)_
 2. Zipline Server _(Version 4 Only)_
 
-Complete these tasks:
+Task List:
 
 - [Server](#server)
 - [Install](#install)
@@ -48,7 +48,10 @@ To join please see [this discussion](https://github.com/cssnr/zipline-android/di
 _To install the apk directly you may need to allow installation from unknown sources.
 For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website)._
 
-[![GitHub Version](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Version)](https://github.com/cssnr/zipline-android/releases/latest)
+<a href="https://github.com/cssnr/zipline-android/releases/latest" style="margin-inline-end: 1em;" target="_blank" rel="noopener">
+    <img alt="Latest" class="d-inline" src="https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Release"></a>
+<a href="https://github.com/cssnr/zipline-android/releases" style="margin-inline-end: 1em;" target="_blank" rel="noopener">
+    <img alt="Pre-Release" class="d-inline" src="https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Pre-Release&include_prereleases"></a>
 
 ::: info UPDATE NOTICE
 If you install the apk directly there is no in-app update check.
