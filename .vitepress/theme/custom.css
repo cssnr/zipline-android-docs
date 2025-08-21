@@ -27,6 +27,10 @@
 
 /* Custom CSS */
 
+.d-inline {
+    display: inline;
+}
+
 div.flex-images {
     display: flex;
     flex-wrap: nowrap;
