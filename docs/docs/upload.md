@@ -16,11 +16,11 @@ The following options are configurable on a per-upload basis for all files:
 - Deletes At _([Examples](https://zipline.diced.sh/docs/guides/ms))_
 - Image Compression
 
-Default Options can be configured in the [Settings](./settings.md#upload-settings). This includes Original Filename and File Name Option.
+Default Options can be configured in the [Settings](settings.md#upload-settings). This includes Original Filename and File Name Option.
 
 ## Upload File
 
-When sharing a single file a preview similar to the [file list preview](./files.md#file-preview) is shown.
+When sharing a single file a preview similar to the [file list preview](files.md#file-preview) is shown.
 
 Additional Options:
 

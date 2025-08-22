@@ -10,11 +10,11 @@ This view will eventually be deprecated once all native features are added.
 
 Native Features:
 
-- [Files](./files.md)
-- [User](./user.md)
-- [Settings](./settings.md)
-- [Upload](./upload.md)
-- [Widget](./widget.md)
+- [Files](files.md)
+- [User](user.md)
+- [Settings](settings.md)
+- [Upload](upload.md)
+- [Widget](widget.md)
 
 _There is also an [Uploading Guide](../guides/uploading.md)._
 

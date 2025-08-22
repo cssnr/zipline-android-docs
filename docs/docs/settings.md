@@ -10,7 +10,7 @@ The Settings page lets you configure how the application works.
 
 Select which page is displayed when you launch the application.
 
-Can be the [Home page](./home.md) or [File page](./files.md).
+Can be the [Home page](home.md) or [File page](files.md).
 
 ### Show Share after Upload
 
@@ -92,7 +92,7 @@ You can enable or disabling updating the following data:
 The only way to disable the background task is to set **Update Interval** to `Disabled`.
 :::
 
-For more details on updates see [Widget - Updates](./widget.md#updates).
+For more details on updates see [Widget - Updates](widget.md#updates).
 
 ## Debugging
 

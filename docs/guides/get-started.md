@@ -12,10 +12,10 @@ Task List:
 - [Server](#server)
 - [Install](#install)
 - [Login](#login)
-- [Uploading](./uploading.md)
+- [Uploading](uploading.md)
 
-::: tip SCREENSHOTS
-You can view screenshots [on GitHub](https://github.com/cssnr/zipline-android/?tab=readme-ov-file#Screenshots).
+::: tip 📸 SCREENSHOTS
+You can view [screenshots](features.md#screenshots) on the [features](features.md) page.
 :::
 
 ## Server
@@ -40,7 +40,7 @@ To begin install the application on your device _(Android only)_.
     </a>
 </div>
 
-::: tip NOTE
+::: tip ▶️ GOOGLE PLAY
 Google Play is in Beta Testing.
 To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25).
 :::
@@ -53,7 +53,7 @@ For more information see, [Release through a website](https://developer.android.
 <a href="https://github.com/cssnr/zipline-android/releases" style="margin-inline-end: 1em;" target="_blank" rel="noopener">
     <img alt="Pre-Release" class="d-inline" src="https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Pre-Release&include_prereleases"></a>
 
-::: info UPDATE NOTICE
+::: info ⬆️ UPDATE NOTICE
 If you install the apk directly there is no in-app update check.
 Because of this [Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android)
 or [Google Play](https://play.google.com/store/apps/details?id=org.cssnr.zipline) is recommended.
@@ -69,8 +69,8 @@ If you have Two-Factor enabled you will be prompted to enter a code after succes
 
 Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
-::: tip GET HELP
+::: tip ❔ GET HELP
 If you have any trouble getting started, [support is available](../support.md).
 :::
 
-You can now start [uploading](./uploading.md) files and text, and shorten URLs.
+You can now start [uploading](uploading.md) files and text, and shorten URLs.

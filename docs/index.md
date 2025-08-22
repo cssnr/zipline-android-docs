@@ -28,7 +28,7 @@ features:
     details: View Setup and Usage Guides
     link: /guides/get-started
   - title: Features
-    details: View Setup and Usage Guides
+    details: View Screenshots and Features
     link: /guides/features
   - title: Documentation
     details: Read The Documentation
@@ -37,7 +37,7 @@ features:
     details: Get Help with Anything
     link: /support
   - title: Open Source
-    details: View the Source Code on GitHub
+    details: View Source Code on GitHub
     link: https://github.com/cssnr/zipline-android
   - title: Browser Addon
     details: Get the Web Extension for Browsers
