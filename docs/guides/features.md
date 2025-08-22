@@ -1,12 +1,37 @@
 # Features
 
-Overview of the available features.
+Overview of available features and [screenshots](#screenshots).
 
 [[toc]]
 
 ::: info
 Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) and we will get it added!
 :::
+
+## Screenshots
+
+<Gallery
+    :images="[
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/1.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/2.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/3.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/4.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/5.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/6.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/7.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/8.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/9.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/10.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/11.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/12.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/13.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/14.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/15.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/16.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/17.jpg',
+    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/18.jpg',
+    ]"
+/>
 
 ## Uploading
 

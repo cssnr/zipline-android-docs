@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 const settings = {
   title: 'Zipline Android',
-  name: 'Zipline Android Documentation',
+  name: 'Zipline Upload Android Documentation',
   description: {
     short: 'Documentation for the Zipline Android Application.',
     long: 'Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.',
