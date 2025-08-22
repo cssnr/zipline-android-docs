@@ -4,7 +4,7 @@ const settings = {
   title: 'Zipline Android',
   name: 'Zipline Android Documentation',
   description: {
-    short: 'Documentation for the Zipline Upload Android Application.',
+    short: 'Documentation for the Zipline Android Application.',
     long: 'Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.',
   },
 }
@@ -72,10 +72,12 @@ export default defineConfig({
         items: [
           { text: 'Get Started', link: '/guides/get-started' },
           { text: 'Uploading', link: '/guides/uploading' },
+          { text: 'Features', link: '/guides/features' },
         ],
       },
       {
         text: 'Documentation',
+        collapsed: false,
         items: [
           { text: 'Home', link: '/docs/home' },
           { text: 'Files', link: '/docs/files' },
@@ -131,6 +133,7 @@ export default defineConfig({
     //   copyright: '<a href="/privacy">Privacy Policy</a>',
     // },
 
+    externalLinkIcon: true,
     outline: 'deep',
   },
 })
