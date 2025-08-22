@@ -13,8 +13,8 @@ hero:
     - text: Get Started
       link: /guides/get-started
       theme: brand
-    - text: Install
-      link: /guides/get-started#install
+    - text: Features
+      link: /guides/features
       theme: brand
     - text: Documentation
       link: /docs/home
@@ -25,21 +25,21 @@ hero:
 
 features:
   - title: Guides
-    details: View Setup and Usage Guides.
+    details: View Setup and Usage Guides
     link: /guides/get-started
+  - title: Features
+    details: View Setup and Usage Guides
+    link: /guides/features
   - title: Documentation
-    details: View Features and Options.
+    details: Read The Documentation
     link: /docs/home
   - title: Support
-    details: Get Help with Anything.
+    details: Get Help with Anything
     link: /support
   - title: Open Source
-    details: View the source code on GitHub.
+    details: View the Source Code on GitHub
     link: https://github.com/cssnr/zipline-android
   - title: Browser Addon
-    details: Get the Web Extension for Browsers.
+    details: Get the Web Extension for Browsers
     link: https://github.com/cssnr/zipline-extension?tab=readme-ov-file#install
-  - title: Contribute
-    details: Support Future Development.
-    link: https://ko-fi.com/cssnr
 ---
