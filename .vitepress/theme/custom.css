@@ -47,7 +47,7 @@ div.flex-images {
 }
 
 .swiper {
-    height: 496px;
+    height: 512px;
     padding-top: 8px !important;
     padding-bottom: 8px !important;
     background-color: var(--vp-code-block-bg);
