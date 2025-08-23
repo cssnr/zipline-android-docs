@@ -12,13 +12,16 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
 
 <ClientOnly>
 <Swiper
-    :modules="[Pagination, Navigation]"
+    :modules="[Keyboard, Navigation, Pagination, EffectCoverflow]"
     :slides-per-view="1"
-    :breakpoints="{ 1080: { slidesPerView: 2 }}"
+    :breakpoints="{ 1096: { slidesPerView: 3 }}"
     :pagination="{ clickable: true, type: 'fraction' }"
+    :keyboard="true"
     :navigation="true"
     :grabCursor="true"
     :loop="true"
+    :lazyPreloadPrevNext="2"
+    :effect="'coverflow'"
     class="swiper">
 <SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/1.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
 <SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/2.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
