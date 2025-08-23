@@ -1,6 +1,6 @@
 # Features
 
-Overview of available features and [screenshots](#screenshots).
+Overview of features and [screenshots](#screenshots).
 
 [[toc]]
 
@@ -10,38 +10,34 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
 
 ## Screenshots
 
+<!--suppress HtmlUnknownAttribute -->
+<script setup>
+const requestFullscreen = () => document.querySelector('.swiper')?.requestFullscreen()
+</script>
+
+<button @click="requestFullscreen" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-fullscreen-icon lucide-fullscreen"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><rect width="10" height="8" x="7" y="8" rx="1"/></svg>
+View in Full Screen
+</button>
+
 <ClientOnly>
 <Swiper
-    :modules="[Keyboard, Navigation, Pagination, EffectCoverflow]"
+    :modules="[Keyboard, Mousewheel, Navigation, Pagination, EffectCoverflow]"
     :slides-per-view="1"
     :breakpoints="{ 1096: { slidesPerView: 3 }}"
     :pagination="{ clickable: true, type: 'fraction' }"
     :coverflowEffect="{ slideShadows: false }"
     :keyboard="true"
+    :mousewheel="true"
     :navigation="true"
     :grabCursor="true"
     :loop="true"
     :lazyPreloadPrevNext="2"
     :effect="'coverflow'"
     class="swiper">
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/1.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/2.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/3.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/4.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/5.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/6.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/7.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/8.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/9.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/10.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/11.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/12.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/13.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/14.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/15.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/16.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/17.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
-<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/18.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide v-for="i in 18" :key="i">
+    <img :src="`https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/${i}.jpg`" alt="Loading..." loading="lazy" />
+</SwiperSlide>
 </Swiper>
 </ClientOnly>
 
