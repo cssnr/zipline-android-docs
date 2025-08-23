@@ -6,7 +6,7 @@
     "prettier": "npx prettier --check ."
   },
   "dependencies": {
-    "@miletorix/vitepress-gallery": "^0.0.7",
+    "swiper": "^11.2.10",
     "vitepress": "^1.6.4"
   },
   "devDependencies": {

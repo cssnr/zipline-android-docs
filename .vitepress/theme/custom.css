@@ -4,6 +4,10 @@
 
     --vp-home-hero-image-filter: blur(44px);
     --vp-home-hero-image-background-image: linear-gradient(0deg, #344398 80%, #344398 50%);
+
+    --swiper-pagination-fraction-color: var(--vp-c-purple-1);
+    --swiper-navigation-color: var(--vp-c-purple-1);
+    --swiper-navigation-sides-offset: 4px;
 }
 
 /*!* Set home page bottom margin *!*/
@@ -36,9 +40,21 @@ div.flex-images {
     flex-wrap: nowrap;
     flex-direction: column;
 }
-
 @media (min-width: 640px) {
     div.flex-images {
         flex-direction: row;
     }
+}
+
+.swiper {
+    height: 512px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background-color: var(--vp-code-block-bg);
+    border-radius: 8px;
+}
+.swiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
