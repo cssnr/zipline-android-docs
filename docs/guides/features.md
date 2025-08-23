@@ -16,6 +16,7 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
     :slides-per-view="1"
     :breakpoints="{ 1096: { slidesPerView: 3 }}"
     :pagination="{ clickable: true, type: 'fraction' }"
+    :coverflowEffect="{ slideShadows: false }"
     :keyboard="true"
     :navigation="true"
     :grabCursor="true"
