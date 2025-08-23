@@ -7,12 +7,12 @@ Requirements:
 1. Android Device _(Android 8+ API 26+)_
 2. Zipline Server _(Version 4 Only)_
 
-Task List:
+Checklist:
 
-- [Server](#server)
-- [Install](#install)
-- [Login](#login)
-- [Uploading](uploading.md)
+1. [Server](#server)
+2. [Install](#install)
+3. [Login](#login)
+4. [Uploading](uploading.md)
 
 ::: tip 📸 SCREENSHOTS
 You can view [screenshots](features.md#screenshots) on the [features](features.md) page.
@@ -63,7 +63,7 @@ or [Google Play](https://play.google.com/store/apps/details?id=org.cssnr.zipline
 
 To log in you need to enter your Zipline Server URL, Username and Password.
 
-You can copy the URL from your web browser, paste everything before `/dashboard`.
+You can copy the URL from your web browser, paste everything before `dashboard`.
 
 If you have Two-Factor enabled you will be prompted to enter a code after successful login.
 
