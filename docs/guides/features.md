@@ -10,28 +10,36 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
 
 ## Screenshots
 
-<Gallery
-    :images="[
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/1.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/2.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/3.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/4.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/5.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/6.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/7.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/8.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/9.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/10.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/11.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/12.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/13.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/14.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/15.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/16.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/17.jpg',
-    'https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/18.jpg',
-    ]"
-/>
+<ClientOnly>
+<Swiper
+    :modules="[Pagination, Navigation]"
+    :slides-per-view="1"
+    :breakpoints="{ 1080: { slidesPerView: 2 }}"
+    :pagination="{ clickable: true, type: 'fraction' }"
+    :navigation="true"
+    :grabCursor="true"
+    :loop="true"
+    class="swiper">
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/1.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/2.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/3.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/4.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/5.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/6.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/7.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/8.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/9.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/10.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/11.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/12.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/13.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/14.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/15.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/16.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/17.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+<SwiperSlide><img src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/18.jpg" alt="Screenshot" loading="lazy" /></SwiperSlide>
+</Swiper>
+</ClientOnly>
 
 ## Uploading
 

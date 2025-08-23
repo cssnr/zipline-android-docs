@@ -36,9 +36,21 @@ div.flex-images {
     flex-wrap: nowrap;
     flex-direction: column;
 }
-
 @media (min-width: 640px) {
     div.flex-images {
         flex-direction: row;
     }
+}
+
+.swiper {
+    height: 496px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: var(--vp-code-block-bg);
+    border-radius: 0.8rem;
+}
+.swiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
