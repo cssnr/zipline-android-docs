@@ -4,7 +4,7 @@ You can share any media to Zipline, including files, text, and links (to shorten
 
 [[toc]]
 
-::: tip ❔ GET HELP
+::: tip ❔ HELP
 If you have any trouble using the application, [support is available](../support.md).
 :::
 

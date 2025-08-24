@@ -1,0 +1,27 @@
+{
+  "props": {
+    "data": "https://github.com/cssnr/zipline-android/releases/latest/download/app-release.apk",
+    "image": "",
+    "width": 200,
+    "height": 200,
+    "margin": 0,
+    "dotsOptions": { "color": "#dfdfd6", "type": "square" },
+    "cornersSquareOptions": { "color": "#dfdfd6", "type": "extra-rounded" },
+    "cornersDotOptions": { "color": "#dfdfd6", "type": "dot" },
+    "imageOptions": { "margin": 4 },
+    "qrOptions": { "errorCorrectionLevel": "H" }
+  },
+  "style": { "borderRadius": "16px", "background": "transparent" },
+  "frame": {
+    "text": "Get it on GitHub",
+    "position": "top",
+    "style": {
+      "textColor": "#dfdfd6",
+      "backgroundColor": "#161618",
+      "borderColor": "#dfdfd6",
+      "borderWidth": "1px",
+      "borderRadius": "8px",
+      "padding": "4px"
+    }
+  }
+}
