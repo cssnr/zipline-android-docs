@@ -1,6 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
+import FullscreenButton from './components/FullscreenButton.vue'
+
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 
@@ -15,6 +17,8 @@ export default {
     ...DefaultTheme,
 
     enhanceApp({ app }) {
+        app.component('FullscreenButton', FullscreenButton)
+
         app.component('Swiper', Swiper)
         app.component('SwiperSlide', SwiperSlide)
 

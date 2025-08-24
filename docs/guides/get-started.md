@@ -4,8 +4,8 @@ Get started by [installing](#install) the application and logging into your serv
 
 Requirements:
 
-1. Android Device _(Android 8+ API 26+)_
-2. Zipline Server _(Version 4 Only)_
+- Android Device _(Android 8+ API 26+)_
+- Zipline Server _(Version 4 Only)_
 
 Checklist:
 
@@ -30,34 +30,31 @@ To begin install the application on your device _(Android only)_.
 
 <div class="flex-images">
     <a title="GitHub" href="https://github.com/cssnr/zipline-android/releases/latest/download/app-release.apk" target="_blank" rel="noopener">
-        <img alt="GitHub" src="/images/badges/github.png">
-    </a>
+        <img alt="GitHub" src="/images/badges/github.png"></a>
     <a title="Obtainium" href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android" target="_blank" rel="noopener">
-        <img alt="Obtainium" src="/images/badges/obtanium.png">
-    </a>
+        <img alt="Obtainium" src="/images/badges/obtanium.png"></a>
     <a title="Google Play" href="https://play.google.com/store/apps/details?id=org.cssnr.zipline" target="_blank" rel="noopener">
-        <img alt="Google Play" src="/images/badges/google-play.png">
-    </a>
+        <img alt="Google Play" src="/images/badges/google-play.png"></a>
 </div>
 
-::: tip ▶️ GOOGLE PLAY
-Google Play is in Beta Testing.
-To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25).
+If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr.dev/) is recommended.
+
+_Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
+
+::: details View QR Codes 📸
+[![Get on GitHub](/images/qr/github.png)](https://github.com/django-files/android-client/releases/latest/download/app-release.apk)
+
+[![Get on Obtainium](/images/qr/obtainium.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android)
+
+[![Get on Google](/images/qr/google.png)](https://play.google.com/store/apps/details?id=org.cssnr.zipline)
 :::
+
+[![Latest Release](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Release)](https://github.com/cssnr/zipline-android/releases/latest)
+
+[![Latest Pre-Release](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Latest%20Pre-Release&include_prereleases)](https://github.com/cssnr/zipline-android/releases)
 
 _To install the apk directly you may need to allow installation from unknown sources.
 For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website)._
-
-<a href="https://github.com/cssnr/zipline-android/releases/latest" style="margin-inline-end: 1em;" target="_blank" rel="noopener">
-    <img alt="Latest" class="d-inline" src="https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Release"></a>
-<a href="https://github.com/cssnr/zipline-android/releases" style="margin-inline-end: 1em;" target="_blank" rel="noopener">
-    <img alt="Pre-Release" class="d-inline" src="https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Pre-Release&include_prereleases"></a>
-
-::: info ⬆️ UPDATE NOTICE
-If you install the apk directly there is no in-app update check.
-Because of this [Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android)
-or [Google Play](https://play.google.com/store/apps/details?id=org.cssnr.zipline) is recommended.
-:::
 
 ## Login
 
@@ -69,7 +66,7 @@ If you have Two-Factor enabled you will be prompted to enter a code after succes
 
 Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
-::: tip ❔ GET HELP
+::: tip ❔ HELP
 If you have any trouble getting started, [support is available](../support.md).
 :::
 
