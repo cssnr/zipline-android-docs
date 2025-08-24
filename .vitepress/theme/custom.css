@@ -6,6 +6,23 @@
     --vp-home-hero-image-background-image: linear-gradient(0deg, #344398 80%, #344398 50%);
 }
 
+/* Custom CSS */
+
+img {
+    display: inline-block;
+}
+
+div.flex-images {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+@media (min-width: 640px) {
+    div.flex-images {
+        flex-direction: row;
+    }
+}
+
 /*!* Set home page bottom margin *!*/
 /*.VPHome {*/
 /*    margin-bottom: 48px !important;*/
@@ -24,33 +41,3 @@
 /*        width: calc(100% / 3);*/
 /*    }*/
 /*}*/
-
-/* Custom CSS */
-
-img {
-    display: inline-block;
-}
-
-div.flex-images {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-@media (min-width: 640px) {
-    div.flex-images {
-        flex-direction: row;
-    }
-}
-
-.swiper {
-    height: 512px;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    background-color: var(--vp-code-block-bg);
-    border-radius: 8px;
-}
-.swiper img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
