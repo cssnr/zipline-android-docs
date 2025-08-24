@@ -10,28 +10,11 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
 
 ## Screenshots
 
-<!--suppress CheckEmptyScriptTag, HtmlUnknownTag -->
-<FullscreenButton />
-<ClientOnly>
-<Swiper
-    :modules="[Keyboard, Mousewheel, Navigation, Pagination, EffectCoverflow]"
-    :slides-per-view="1"
-    :breakpoints="{ 1096: { slidesPerView: 3 }}"
-    :pagination="{ clickable: true, type: 'fraction' }"
-    :coverflowEffect="{ slideShadows: false }"
-    :keyboard="true"
-    :mousewheel="true"
-    :navigation="true"
-    :grabCursor="true"
-    :loop="true"
-    :lazyPreloadPrevNext="2"
-    :effect="'coverflow'"
-    class="swiper">
-<SwiperSlide v-for="i in 18" :key="i">
-    <img :src="`https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots/${i}.jpg`" alt="Loading…" loading="lazy" />
-</SwiperSlide>
-</Swiper>
-</ClientOnly>
+<VpSwiper
+    base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/screenshots"
+    :number-of-slides="18"
+    :breakpoints="{ 1096: { slidesPerView: 3 } }"
+/>
 
 ## Uploading
 
