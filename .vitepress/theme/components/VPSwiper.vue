@@ -1,4 +1,6 @@
 <script setup>
+// noinspection NpmUsedModulesInstalled
+import { ref } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Keyboard, Mousewheel, Navigation, Pagination, EffectCoverflow } from 'swiper/modules'
 import 'swiper/css'
@@ -21,9 +23,10 @@ const props = defineProps({
   loop: { type: Boolean, default: true },
 })
 
-let swiperEl = null
+const swiperEl = ref(null)
 const requestFullscreen = () => {
-  swiperEl?.$el?.requestFullscreen?.()
+  // noinspection JSUnresolvedReference
+  swiperEl?.value?.$el?.requestFullscreen?.()
 }
 </script>
 
