@@ -1,7 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
-import VPSwiper from './components/VPSwiper.vue'
+import VPSwiper from '@cssnr/vitepress-swiper'
+import '@cssnr/vitepress-swiper/style.css'
 
 // noinspection JSUnusedGlobalSymbols
 export default {
