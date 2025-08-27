@@ -6,7 +6,7 @@
     "prettier": "npx prettier --check ."
   },
   "dependencies": {
-    "@cssnr/vitepress-swiper": "^0.0.3",
+    "@cssnr/vitepress-swiper": "^0.0.4",
     "vitepress": "^1.6.4"
   },
   "devDependencies": {
