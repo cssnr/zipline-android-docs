@@ -13,10 +13,11 @@ Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-a
 <VPSwiper
 base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/docs"
 :number-of-slides="22"
-:breakpoints="{ 1096: { slidesPerView: 3 } }"
+:breakpoints="{ 680: { slidesPerView: 3 } }"
 :pagination="{ type: 'fraction' }"
 effect="coverflow"
 :coverflow-effect="{ slideShadows: false }"
+height="480px"
 />
 
 ## Uploading
