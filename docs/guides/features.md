@@ -17,7 +17,7 @@ base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/mast
 :pagination="{ type: 'fraction' }"
 effect="coverflow"
 :coverflow-effect="{ slideShadows: false }"
-height="446px"
+height="480px"
 />
 
 ## Uploading
