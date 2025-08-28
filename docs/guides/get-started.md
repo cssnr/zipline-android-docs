@@ -2,13 +2,6 @@
 
 Get started by [installing](#install) the application and logging into your server.
 
-Requirements:
-
-- Android Device _(Android 8+ API 26+)_
-- Zipline Server _(Version 4 Only)_
-
-Checklist:
-
 1. [Server](#server)
 2. [Install](#install)
 3. [Login](#login)
@@ -22,11 +15,11 @@ You can view [screenshots](features.md#screenshots) on the [features](features.m
 
 This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
 
-If not you can [get started here](https://zipline.diced.sh/docs/get-started).
+Only Version 4 is supported. If not you can [get started here](https://zipline.diced.sh/docs/get-started).
 
 ## Install
 
-To begin install the application on your device _(Android only)_.
+To begin install the application on your device _(Android 8+ API 26+)_.
 
 <div class="flex-images">
     <a title="GitHub" href="https://github.com/cssnr/zipline-android/releases/latest/download/app-release.apk" target="_blank" rel="noopener">
@@ -37,9 +30,9 @@ To begin install the application on your device _(Android only)_.
         <img alt="Google Play" src="/images/badges/google-play.png"></a>
 </div>
 
-If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr.dev/) is recommended.
-
 _Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
+
+If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr.dev/) is recommended.
 
 ::: details View QR Codes 📸
 [![Get on GitHub](/images/qr/github.png)](https://github.com/django-files/android-client/releases/latest/download/app-release.apk)
