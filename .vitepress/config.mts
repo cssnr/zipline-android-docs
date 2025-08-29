@@ -5,7 +5,7 @@ const settings = {
   name: 'Zipline Upload Android Documentation',
   description: {
     short: 'Documentation for the Zipline Android Application.',
-    long: 'Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.',
+    long: 'Zipline Android Client Application to Upload, Share, Download and Manage Files and Short URLs for a self-hosted Diced/Zipline v4 ShareX Upload Server.',
   },
 }
 

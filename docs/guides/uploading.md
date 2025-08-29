@@ -24,7 +24,7 @@ You can now use the [file list](../docs/files.md) to view, edit, and download fi
 
 ## Text or URL
 
-This works the same as Files, except you select text or links, then choose Share.
+This works the same as [Files](#files), except you select text or links, then choose Share.
 
 1. Select any text or click on a link in your address bar.
 2. Click the Share option and select **Zipline** as the destination.

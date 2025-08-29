@@ -59,8 +59,8 @@ If you have Two-Factor enabled you will be prompted to enter a code after succes
 
 Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) or enable [Debug Logging](../docs/settings.md#debugging).
 
-::: tip ❔ HELP
+You can now start [uploading](uploading.md) files and text or create [short URL's](uploading.md#text-or-url).
+
+::: tip ❔ GET SUPPORT
 If you have any trouble getting started, [support is available](../support.md).
 :::
-
-You can now start [uploading](uploading.md) files and text, and shorten URLs.
