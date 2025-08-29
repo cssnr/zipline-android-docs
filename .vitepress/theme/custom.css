@@ -8,8 +8,9 @@
 
 /* Custom CSS */
 
-img {
+.vp-doc img {
     display: inline-block;
+    margin-right: 8px;
 }
 
 div.flex-images {
