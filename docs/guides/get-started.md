@@ -2,14 +2,12 @@
 
 Get started by [installing](#install) the application and logging into your server.
 
+You can view 📸 [screenshots](features.md#screenshots) on the [features](features.md) page.
+
 1. [Server](#server)
 2. [Install](#install)
 3. [Login](#login)
 4. [Uploading](uploading.md)
-
-::: tip 📸 SCREENSHOTS
-You can view [screenshots](features.md#screenshots) on the [features](features.md) page.
-:::
 
 ## Server
 
@@ -43,8 +41,7 @@ If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr
 :::
 
 [![Latest Release](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&color=34A853&label=Latest%20Release)](https://github.com/cssnr/zipline-android/releases/latest)
-
-[![Latest Pre-Release](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Latest%20Pre-Release&include_prereleases)](https://github.com/cssnr/zipline-android/releases)
+[![Latest Pre-Release](https://img.shields.io/github/v/release/cssnr/zipline-android?style=for-the-badge&logo=android&label=Pre-Release&include_prereleases)](https://github.com/cssnr/zipline-android/releases)
 
 _To install the apk directly you may need to allow installation from unknown sources.
 For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website)._
