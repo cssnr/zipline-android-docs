@@ -27,5 +27,5 @@ This uses the Android System WebView to load the full Zipline website in the app
 - If you clear your sessions, you will be logged out of the WebView, and the application.
 
 ::: info
-These drawbacks will be fixed in future releases.
+This has been fixed and is being [Beta tested](https://github.com/cssnr/zipline-android/releases) now.
 :::
