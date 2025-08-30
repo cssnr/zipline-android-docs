@@ -10,12 +10,6 @@ Get started by [installing](#install) the application and [logging](#login) into
 
 You can view 📸 [screenshots](features.md#screenshots) on the [features](features.md) page.
 
-## Server
-
-This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
-
-Only Version 4 is supported. If not you can [get started here](https://zipline.diced.sh/docs/get-started).
-
 ## Install
 
 To begin install the application on your device _(Android 8+ API 26+)_.
@@ -55,3 +49,9 @@ You can now start [uploading](uploading.md) files and text or create [short URL'
 ::: tip ❔ HELP
 If you have any trouble getting started, [support is available](../support.md).
 :::
+
+## Server
+
+This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
+
+Only Version 4 is supported. If not you can [get started here](https://zipline.diced.sh/docs/get-started).
