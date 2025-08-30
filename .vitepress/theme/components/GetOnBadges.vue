@@ -43,7 +43,6 @@ const badges = [
   display: inline-block;
 }
 .badges img {
-  display: block;
   transition: transform 0.3s;
 }
 .badges img:hover {
