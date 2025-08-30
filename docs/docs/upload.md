@@ -13,7 +13,7 @@ The following options are configurable on a per-upload basis for all files:
 - Folder
 - Password
 - Max Views
-- Deletes At _([Examples](https://zipline.diced.sh/docs/guides/ms))_
+- Deletes At - _[Examples](https://zipline.diced.sh/docs/guides/ms)_
 - Image Compression
 
 Default Options can be configured in the [Settings](settings.md#upload-settings). This includes Original Filename and File Name Option.
