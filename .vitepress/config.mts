@@ -23,7 +23,9 @@ export default defineConfig({
   title: settings.title,
   description: settings.description.short,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo.png' }],
+
     ['meta', { name: 'darkreader-lock' }],
 
     ['meta', { name: 'theme-color', content: '#344398' }],
@@ -95,6 +97,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cssnr/zipline-android' },
+      { icon: 'googlechrome', link: 'https://github.com/cssnr/zipline-extension' },
       { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {
