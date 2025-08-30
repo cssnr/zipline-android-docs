@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Get Started'
+  link: '/guides/get-started'
+---
+
 # Support
 
 If you have any troubles using the application, or run into any issues, please let us know!

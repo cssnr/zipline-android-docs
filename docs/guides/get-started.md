@@ -1,13 +1,14 @@
+---
+prev:
+  text: 'Get Help'
+  link: '/support'
+---
+
 # Get Started
 
-Get started by [installing](#install) the application and logging into your server.
+Get started by [installing](#install) the application and [logging](#login) into your [server](#server).
 
 You can view 📸 [screenshots](features.md#screenshots) on the [features](features.md) page.
-
-1. [Server](#server)
-2. [Install](#install)
-3. [Login](#login)
-4. [Uploading](uploading.md)
 
 ## Server
 
@@ -51,6 +52,6 @@ Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) o
 
 You can now start [uploading](uploading.md) files and text or create [short URL's](uploading.md#text-or-url).
 
-::: tip ❔ GET SUPPORT
+::: tip ❔ HELP
 If you have any trouble getting started, [support is available](../support.md).
 :::
