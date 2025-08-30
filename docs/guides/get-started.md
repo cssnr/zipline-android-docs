@@ -19,14 +19,7 @@ Only Version 4 is supported. If not you can [get started here](https://zipline.d
 
 To begin install the application on your device _(Android 8+ API 26+)_.
 
-<div class="flex-images">
-    <a title="GitHub" href="https://github.com/cssnr/zipline-android/releases/latest/download/app-release.apk" target="_blank" rel="noopener">
-        <img alt="GitHub" src="/images/badges/github.png"></a>
-    <a title="Obtainium" href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android" target="_blank" rel="noopener">
-        <img alt="Obtainium" src="/images/badges/obtanium.png"></a>
-    <a title="Google Play" href="https://play.google.com/store/apps/details?id=org.cssnr.zipline" target="_blank" rel="noopener">
-        <img alt="Google Play" src="/images/badges/google-play.png"></a>
-</div>
+<GetOnBadges />
 
 _Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
 

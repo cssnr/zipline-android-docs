@@ -7,7 +7,7 @@ hero:
   text: Documentation
   tagline: Android Application to Upload, Share and Manage Files and URLs for a Diced/Zipline v4 ShareX Server.
   image:
-    src: /images/logo-lg.png
+    src: /images/logo.png
     alt: Zipline Android
   actions:
     - text: Get Started
@@ -40,6 +40,8 @@ features:
     details: View Source Code on GitHub
     link: https://github.com/cssnr/zipline-android
   - title: Browser Addon
-    details: Get the Web Extension for Browsers
+    details: Get the Web Extension
     link: https://github.com/cssnr/zipline-extension?tab=readme-ov-file#install
 ---
+
+<GetOnBadges :centered="true" margin="30px 0 0 0" />
