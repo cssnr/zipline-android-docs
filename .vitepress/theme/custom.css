@@ -12,14 +12,3 @@
     display: inline-block;
     margin-right: 8px;
 }
-
-div.flex-images {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-@media (min-width: 640px) {
-    div.flex-images {
-        flex-direction: row;
-    }
-}
