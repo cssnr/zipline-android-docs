@@ -8,6 +8,10 @@
 
 /* Custom CSS */
 
+body {
+    overflow-x: hidden;
+}
+
 .vp-doc img {
     display: inline-block;
     margin-right: 8px;

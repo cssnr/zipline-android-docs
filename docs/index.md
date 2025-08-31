@@ -44,4 +44,8 @@ features:
     link: https://github.com/cssnr/zipline-extension?tab=readme-ov-file#install
 ---
 
-<GetOnBadges :centered="true" margin="30px 0 0 0" />
+<GetOnBadges
+:animation="['animate__zoomInLeft', 'animate__zoomInUp', 'animate__zoomInRight']"
+:centered="true"
+margin="30px 0 0 0"
+/>

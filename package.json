@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@cssnr/vitepress-swiper": "^0.0.6",
+    "animate.css": "^4.1.1",
     "vitepress": "^1.6.4"
   },
   "devDependencies": {
