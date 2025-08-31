@@ -45,7 +45,7 @@ features:
 ---
 
 <GetOnBadges
-:animation="['animate__lightSpeedInLeft', 'animate__jackInTheBox', 'animate__lightSpeedInRight']"
+:animation="['animate__zoomInLeft', 'animate__zoomInUp', 'animate__zoomInRight']"
 :centered="true"
 margin="30px 0 0 0"
 />

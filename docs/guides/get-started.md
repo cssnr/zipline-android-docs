@@ -14,7 +14,9 @@ You can view 📸 [screenshots](features.md#screenshots) on the [features](featu
 
 To begin install the application on your device _(Android 8+ API 26+)_.
 
-<GetOnBadges animation="animate__tada" />
+<GetOnBadges
+:animation="['animate__lightSpeedInLeft', 'animate__jackInTheBox', 'animate__lightSpeedInRight']"
+/>
 
 _Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
 
