@@ -1,5 +1,9 @@
 <script setup>
+import 'animate.css'
+
 const props = defineProps({
+  animation: { type: [String, Array], default: null },
+  extraClass: { type: String, default: '' },
   centered: { type: Boolean, default: false },
   margin: { type: String, default: null },
 })
@@ -25,6 +29,16 @@ const badges = [
     href: 'https://play.google.com/store/apps/details?id=org.cssnr.zipline',
   },
 ]
+
+let imageClasses = [] // NOSONAR
+if (typeof props.animation === 'string') {
+  const newClass = `animate__animated ${props.animation} ${props.extraClass}`.trim()
+  imageClasses.push(...Array(badges.length).fill(newClass))
+} else if (typeof props.animation === 'object') {
+  for (const animation of props.animation) {
+    imageClasses.push(`animate__animated ${animation} ${props.extraClass}`.trim())
+  }
+}
 </script>
 
 <style scoped>
@@ -39,24 +53,23 @@ const badges = [
     flex-direction: row;
   }
 }
+
 .badges a {
   display: inline-block;
-}
-.badges img {
   transition: transform 0.3s;
 }
-.badges img:hover {
+.badges a:hover {
   transform: scale(1.05);
 }
 </style>
 
 <template>
   <div class="badges" :style="badgeStyle">
-    <template v-for="badge in badges" :key="badge.title">
+    <template v-for="(badge, index) in badges" :key="badge.title">
       <div>
         <a :title="badge.title" :href="badge.href" target="_blank" rel="noopener">
           <span class="badge-img">
-            <img :alt="badge.title" :src="badge.src" />
+            <img :alt="badge.title" :src="badge.src" :class="imageClasses[index]" />
           </span>
         </a>
       </div>
