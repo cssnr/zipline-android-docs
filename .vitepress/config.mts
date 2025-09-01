@@ -126,13 +126,13 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local',
-      // provider: 'algolia',
-      // options: {
-      //   appId: 'C5CAXNAV8S',
-      //   apiKey: '2485bd6cfe2823fac3a521edb6a3652f',
-      //   indexName: 'zipline-android-docs',
-      // },
+      // provider: 'local',
+      provider: 'algolia',
+      options: {
+        appId: '1661VTCE0H',
+        apiKey: 'ddc74a0231783c222ada099a107d68ad',
+        indexName: 'zipline-android-docs',
+      },
     },
 
     // footer: {
