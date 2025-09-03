@@ -72,33 +72,6 @@ export default defineConfig({
       },
     ],
 
-    sidebar: [
-      {
-        text: 'Guides',
-        items: [
-          { text: 'Get Started', link: '/guides/get-started' },
-          { text: 'Uploading', link: '/guides/uploading' },
-          { text: 'Features', link: '/guides/features' },
-        ],
-      },
-      {
-        text: 'Documentation',
-        collapsed: false,
-        items: [
-          { text: 'Home', link: '/docs/home' },
-          { text: 'Files', link: '/docs/files' },
-          { text: 'User', link: '/docs/user' },
-          { text: 'Settings', link: '/docs/settings' },
-          { text: 'Upload', link: '/docs/upload' },
-          { text: 'Widget', link: '/docs/widget' },
-        ],
-      },
-      {
-        text: 'Support',
-        items: [{ text: 'Support', link: '/support' }],
-      },
-    ],
-
     socialLinks: [
       { icon: 'github', link: settings.source_repo },
       { icon: 'googlechrome', link: 'https://github.com/cssnr/zipline-extension' },
@@ -109,6 +82,35 @@ export default defineConfig({
           svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" style="fill: none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
         },
         link: 'https://cssnr.github.io/',
+      },
+    ],
+
+    sidebar: [
+      {
+        text: 'Guides',
+        base: '/guides',
+        items: [
+          { text: 'Get Started', link: '/get-started' },
+          { text: 'Uploading', link: '/uploading' },
+          { text: 'Features', link: '/features' },
+        ],
+      },
+      {
+        text: 'Documentation',
+        base: '/docs',
+        collapsed: false,
+        items: [
+          { text: 'Home', link: '/home' },
+          { text: 'Files', link: '/files' },
+          { text: 'User', link: '/user' },
+          { text: 'Settings', link: '/settings' },
+          { text: 'Upload', link: '/upload' },
+          { text: 'Widget', link: '/widget' },
+        ],
+      },
+      {
+        text: 'Support',
+        items: [{ text: 'Get Help', link: '/support' }],
       },
     ],
 

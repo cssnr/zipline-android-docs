@@ -96,3 +96,7 @@ Additionally, many applications don't offer both Share and Open when selecting f
 Zipline, however, supports both intents and allows re-sharing any file(s).
 
 Because of this, you can open files with Zipline, then Share them to other supported apps.
+
+---
+
+<GetOnBadges />
