@@ -34,7 +34,7 @@ let imageClasses = [] // NOSONAR
 if (typeof props.animation === 'string') {
   const newClass = `animate__animated ${props.animation} ${props.extraClass}`.trim()
   imageClasses.push(...Array(badges.length).fill(newClass))
-} else if (typeof props.animation === 'object') {
+} else if (props.animation) {
   for (const animation of props.animation) {
     imageClasses.push(`animate__animated ${animation} ${props.extraClass}`.trim())
   }
