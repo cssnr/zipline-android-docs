@@ -24,17 +24,17 @@ hero:
       theme: alt
 
 features:
-  - title: Guides
+  - title: Install
     details: View Setup and Usage Guides
-    link: /guides/get-started
-  - title: Features
+    link: /guides/get-started#install
+  - title: Screenshots
     details: View Screenshots and Features
-    link: /guides/features
+    link: /guides/features#screenshots
   - title: Documentation
     details: Read The Documentation
     link: /docs/home
-  - title: Support
-    details: Get Help with Anything
+  - title: Get Help
+    details: Get Support with Anything
     link: /support
   - title: Open Source
     details: View Source Code on GitHub
