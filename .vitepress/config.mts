@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 const settings = {
   title: 'Zipline Android',
-  name: 'Zipline Upload Android Documentation',
+  name: 'Zipline Upload Android Application',
   description: {
-    short: 'Documentation for the Zipline Android Application.',
-    long: 'Zipline Android Client Application to Upload, Share, Download and Manage Files and Short URLs for a self-hosted Diced/Zipline v4 ShareX Upload Server.',
+    short: 'Zipline Upload Android Client Application for a Diced/Zipline self-hosted ShareX Server.',
+    long: 'Zipline Android Client Application to Upload, Share, Download and Manage Files and Short URLs for a self-hosted Diced/Zipline v4 ShareX Upload Server. Native Kotlin Android Application with a Mobile First Design. Includes a Stats Widget with Upload Shortcuts.',
   },
   image: '/images/logo.png',
   color: '#344398',
@@ -65,7 +65,7 @@ export default defineConfig({
         items: [
           { text: 'Zipline Android GitHub', link: settings.source_repo },
           { text: 'Documentation GitHub', link: settings.docs_repo },
-          { text: 'Diced Zipline Server', link: 'https://github.com/diced/zipline' },
+          { text: 'Diced/Zipline GitHub', link: 'https://github.com/diced/zipline' },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
         ],

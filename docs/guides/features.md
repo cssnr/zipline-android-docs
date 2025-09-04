@@ -1,14 +1,14 @@
 # Features
 
-Overview of features and [screenshots](#screenshots).
+A Native Kotlin Android Application with a Mobile First Design.
+Everything is cached and images are not downloaded over metered connections unless enabled.
+User profile and stats widget are updated in the background with a user configurable task.
+
+Please submit a [Feature Request](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) for any features you would like to see.
 
 [[toc]]
 
-::: info
-Missing a feature? Submit a [Feature Request](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) and we will get it added!
-:::
-
-## Screenshots
+## Screenshots 📸 {#screenshots}
 
 <VPSwiper
 base-url="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/android/docs"
