@@ -23,9 +23,7 @@ _There is also an [Uploading Guide](../guides/uploading.md)._
 This uses the Android System WebView to load the full Zipline website in the application.
 
 - After logging in the cookie is saved to the WebView storage.
-- If you log out in the WebView, you will be logged out of the application.
-- If you clear your sessions, you will be logged out of the WebView, and the application.
+- If you log out in the WebView, you will have to manually log back in.
+- If you clear your sessions, you will be logged out of the WebView.
 
-::: info
-This has been fixed and is being [Beta tested](https://github.com/cssnr/zipline-android/releases) now.
-:::
+The application, including uploads, will continue to work normally if logged out of the WebView.
