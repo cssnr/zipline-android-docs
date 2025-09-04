@@ -8,7 +8,7 @@ prev:
 
 Get started by [installing](#install) the application and [logging](#login) into your [server](#server).
 
-You can view 📸 [screenshots](features.md#screenshots) on the [features](features.md) page.
+You can view [screenshots](features.md#screenshots) 📸 on the [features](features.md) page.
 
 ## Install
 
@@ -56,4 +56,4 @@ If you have any trouble getting started, [support is available](../support.md).
 
 This guide assumes you have a [diced/zipline](https://github.com/diced/zipline) server setup and accessible.
 
-Only Version 4 is supported. If not you can [get started here](https://zipline.diced.sh/docs/get-started).
+If not you can [get started here](https://zipline.diced.sh/docs/get-started). Only version 4 is supported.
