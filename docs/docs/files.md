@@ -21,7 +21,7 @@ The Files page loads your recent files from the server.
 
 ::: tip NOTICE
 In a future version of the server (trunk) views are counted on the raw endpoint.
-This means the file list will trigger 1 view (but only 1 since the image is cached after that).
+This means the file list will trigger 1 view (but only 1 since the image is cached after that) when loading the file.
 
 This will be fixed in a future release after the server version goes live.
 :::

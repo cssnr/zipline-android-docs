@@ -31,6 +31,6 @@ The application, including uploads, will continue to work normally if logged out
 ::: tip NOTICE
 The session bug is fixed in server version 4.2.2 or later. Upgrading the server will fix this issue.
 
-Furthermore, this will restriction be re-enforced in a later version to prevent views from being counted in the file list.
+Furthermore, this restriction will be re-enforced in a later version to prevent views from being counted in the file list.
 More info on the [Files - List Display](files.md#list-display).
 :::
