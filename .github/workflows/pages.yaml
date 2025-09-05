@@ -13,8 +13,6 @@ on:
 
 env:
   CRAWLER_ID: 17f838e0-08c4-4612-bb4b-2ee47218a3b1
-  CRAWLER_USER_ID: ${{ secrets.CRAWLER_USER_ID }}
-  CRAWLER_API_KEY: ${{ secrets.CRAWLER_API_KEY }}
 
 permissions:
   contents: read
@@ -90,13 +88,12 @@ jobs:
     needs: deploy
 
     steps:
-      - name: "Algolia Start Crawl"
-        if: ${{ !cancelled() }}
-        uses: cssnr/web-request-action@v1
+      - name: "Algolia Crawler"
+        uses: cssnr/algolia-crawler-action@v1
         with:
-          url: https://crawler.algolia.com/api/1/crawlers/${{ env.CRAWLER_ID }}/reindex
-          username: ${{ env.CRAWLER_USER_ID }}
-          password: ${{ env.CRAWLER_API_KEY }}
+          crawler_id: ${{ env.CRAWLER_ID }}
+          crawler_user_id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler_api_key: ${{ secrets.CRAWLER_API_KEY }}
 
       - name: "Send Post-Deploy Notification"
         if: ${{ failure() }}
