@@ -8,7 +8,7 @@ prev:
 
 Get started by [installing](#install) the application and [logging](#login) into your [server](#server).
 
-You can view [screenshots](features.md#screenshots) 📸 on the [features](features.md) page.
+You can view [screenshots 📸](features.md#screenshots) on the [features](features.md) page.
 
 ## Install
 

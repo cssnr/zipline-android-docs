@@ -39,7 +39,7 @@ The site should now be available at: http://localhost:5173/
 
 # Contributing
 
-For instructions on modifying the documentation see the [CONTRIBUTING.md](https://github.com/cssnr/.github/blob/master/.github/CONTRIBUTING.md).
+For instructions on modifying the documentation see the [CONTRIBUTING.md](#contributing-ov-file).
 
 Please consider making a donation to support the development of this project
 and [additional](https://cssnr.com/) open source projects.
