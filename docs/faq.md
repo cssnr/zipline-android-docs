@@ -1,12 +1,20 @@
 # Frequently Asked Questions
 
+<span class="search-keywords">Help and FAQ</span>
+
 If none of these [Questions](#questions-and-answers) or [Troubleshooting Steps](#troubleshooting-steps) help, please [reach out to support](support.md).
+
+::: warning IMPORTANT
+Zipline Server `v4.3` requires Client `v1.0.29` or greater to Upload Files.
+
+For more details or to provide feedback, [join the discussion on GitHub](https://github.com/cssnr/zipline-android/discussions/87)
+:::
 
 ## Questions and Answers
 
 💡 _Click on the question to expand/collapse the answer._
 
-<details><summary>Unable to Log into the Application.</summary>
+<details><summary>Unable to Log into the Application</summary>
 
 If you are not sure why you can't log in, enable the [Debug Logs](docs/settings.md#debugging) then attempt to log in again.
 From there you can open the debug logs and get more information on the failure.
@@ -17,7 +25,7 @@ please [contact support](support.md) with the error logs for more assistance.
 ---
 
 </details>
-<details><summary>Error when Uploading a File or Short URL.</summary>
+<details><summary>Error when Uploading a File or Short URL</summary>
 
 This only happens when your session is removed from the server.
 
@@ -30,7 +38,7 @@ If you are using server version `4.3` or later, you need to use Client Version `
 ---
 
 </details>
-<details><summary>The Application or WebView becomes Logged out.</summary>
+<details><summary>The Application or WebView becomes Logged out</summary>
 
 This only happens when your session is removed from the server.
 
@@ -53,3 +61,12 @@ Don't see your question here? Please [let us know](support.md) what it is.
 - If you encounter issues with authentication, try clearing the application data (full reset).
 
 If everything else fails, please [let us know](support.md) what happened.
+
+<style scoped>
+summary {
+    color: var(--vp-c-indigo-1);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+</style>

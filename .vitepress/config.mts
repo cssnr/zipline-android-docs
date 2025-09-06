@@ -59,7 +59,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guides', link: '/guides/get-started', activeMatch: '/guides/' },
       { text: 'Docs', link: '/docs/home', activeMatch: '/docs/' },
-      { text: 'Support', link: '/support', activeMatch: '^/(support|faq)/?' },
+      { text: 'Support', link: '/faq', activeMatch: '^/(support|faq)/?' },
       {
         text: 'Links',
         items: [
