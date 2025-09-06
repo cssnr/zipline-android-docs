@@ -36,5 +36,5 @@ and the [share dialog](../docs/settings.md#show-share-after-upload) can be autom
 For additional details on uploading, see the [Upload Documentation](../docs/upload.md).
 
 ::: tip ❔ HELP
-If you have any trouble using the application, [support is available](../support.md).
+If you have any trouble uploading, check out the [FAQ](../faq.md) or [contact support](../support.md).
 :::

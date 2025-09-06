@@ -59,13 +59,14 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guides', link: '/guides/get-started', activeMatch: '/guides/' },
       { text: 'Docs', link: '/docs/home', activeMatch: '/docs/' },
-      { text: 'Support', link: '/support' },
+      { text: 'Support', link: '/support', activeMatch: '^/(support|faq)/?' },
       {
         text: 'Links',
         items: [
           { text: 'Zipline Android GitHub', link: settings.source_repo },
           { text: 'Documentation GitHub', link: settings.docs_repo },
           { text: 'Diced/Zipline GitHub', link: 'https://github.com/diced/zipline' },
+          { text: 'Browser Addon', link: 'https://github.com/cssnr/zipline-extension' },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
         ],
@@ -74,6 +75,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: settings.source_repo },
+      { icon: 'vitepress', link: settings.docs_repo },
       { icon: 'googlechrome', link: 'https://github.com/cssnr/zipline-extension' },
       { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
@@ -110,7 +112,10 @@ export default defineConfig({
       },
       {
         text: 'Support',
-        items: [{ text: 'Get Help', link: '/support' }],
+        items: [
+          { text: 'FAQ', link: '/faq' },
+          { text: 'Get Help', link: '/support' },
+        ],
       },
     ],
 

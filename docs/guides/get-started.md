@@ -49,7 +49,7 @@ Additionally, you can add [Custom Headers](../docs/settings.md#custom-headers) o
 You can now start [uploading](uploading.md) files and text or create [short URL's](uploading.md#text-or-url).
 
 ::: tip ❔ HELP
-If you have any trouble getting started, [support is available](../support.md).
+If you have any trouble getting started, check out the [FAQ](../faq.md) or [contact support](../support.md).
 :::
 
 ## Server

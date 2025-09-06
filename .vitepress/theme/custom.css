@@ -13,6 +13,8 @@ body {
 
 summary {
     cursor: pointer;
+    font-weight: bold;
+    font-size: 1.03em;
 }
 
 .vp-doc img {
