@@ -5,7 +5,7 @@
 If none of these [Questions](#questions-and-answers) or [Troubleshooting Steps](#troubleshooting-steps) help, please [reach out to support](support.md).
 
 ::: warning IMPORTANT
-Zipline Server `v4.3` requires Client `v1.0.29` or greater to Upload Files.
+Zipline Server [v4.3.0](https://github.com/diced/zipline/releases/latest) requires Client [v1.0.29](https://github.com/cssnr/zipline-android/releases/latest) or greater to Upload Files.
 
 For more details or to provide feedback, [join the discussion on GitHub](https://github.com/cssnr/zipline-android/discussions/87)
 :::
@@ -27,12 +27,14 @@ please [contact support](support.md) with the error logs for more assistance.
 </details>
 <details><summary>Error when Uploading a File or Short URL</summary>
 
-This only happens when your session is removed from the server.
+If you do not get a useful error message, enable [Debug Logging](docs/settings.md#debugging) in the Client Application.
 
-If you click Log out everywhere, this includes the mobile application.
+You can also check the Zipline server logs for additional information on 500 Errors.
+
+If the issue is not clear, please [contact support](support.md) with the debug and server logs.
 
 ::: tip NOTICE
-If you are using server version `4.3` or later, you need to use Client Version `1.0.29` or later.
+If you are using server version [v4.3.0](https://github.com/diced/zipline/releases/latest) or later, you need to use Client Version `1.0.29` or later.
 :::
 
 ---
@@ -64,9 +66,12 @@ If everything else fails, please [let us know](support.md) what happened.
 
 <style scoped>
 summary {
-    color: var(--vp-c-indigo-1);
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+    color: var(--vp-c-brand-1);
+}
+summary:hover {
+    filter: brightness(115%);
+    /*color: var(--vp-c-indigo-2);*/
+    /*text-decoration: underline;*/
+    /*text-decoration-thickness: 1px;*/
 }
 </style>
