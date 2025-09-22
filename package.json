@@ -1,9 +1,11 @@
 {
   "scripts": {
+    "docs": "npm run docs:dev",
     "dev": "vitepress dev .",
     "build": "vitepress build .",
     "preview": "vitepress preview .",
-    "prettier": "npx prettier --check ."
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
   },
   "dependencies": {
     "@cssnr/vitepress-swiper": "^0.2.0",

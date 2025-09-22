@@ -15,11 +15,25 @@ summary {
     cursor: pointer;
 }
 
-.vp-doc img {
-    display: inline-block;
-    margin-right: 8px;
+table th {
+    text-wrap: nowrap;
 }
 
 .search-keywords {
     display: none;
+}
+
+/* NOTE: This is a "fix" for the search modal content shift */
+@supports (scrollbar-gutter: stable) {
+    @media (min-width: 769px) {
+        html {
+            scrollbar-gutter: stable;
+        }
+    }
+}
+
+.vp-doc p > img,
+.vp-doc p > a > img {
+    display: inline-block;
+    margin-right: 8px;
 }

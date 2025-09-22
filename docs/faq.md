@@ -1,3 +1,7 @@
+---
+pageClass: faq-page
+---
+
 # Frequently Asked Questions
 
 <span class="search-keywords">Help and FAQ</span>
@@ -65,10 +69,10 @@ Don't see your question here? Please [let us know](support.md) what it is.
 If everything else fails, please [let us know](support.md) what happened.
 
 <style scoped>
-summary {
+.faq-page summary {
     color: var(--vp-c-brand-1);
 }
-summary:hover {
+.faq-page summary:hover {
     filter: brightness(115%);
     /*color: var(--vp-c-indigo-2);*/
     /*text-decoration: underline;*/
