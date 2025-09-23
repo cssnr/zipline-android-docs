@@ -1,10 +1,10 @@
 {
   "scripts": {
     "docs": "npm run docs:dev",
-    "docs:build": "vitepress build docs",
+    "docs:build": "vitepress build .",
     "docs:deploy": "npm run docs:build",
-    "docs:dev": "vitepress dev docs",
-    "docs:preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev .",
+    "docs:preview": "vitepress preview .",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write ."
   },
