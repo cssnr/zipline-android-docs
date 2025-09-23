@@ -1,14 +1,15 @@
 {
   "scripts": {
     "docs": "npm run docs:dev",
-    "dev": "vitepress dev .",
-    "build": "vitepress build .",
-    "preview": "vitepress preview .",
+    "docs:build": "vitepress build docs",
+    "docs:deploy": "npm run docs:build",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write ."
   },
   "dependencies": {
-    "@cssnr/vitepress-swiper": "^0.2.0",
+    "@cssnr/vitepress-swiper": "^0.2.1",
     "animate.css": "^4.1.1",
     "vitepress": "^1.6.4"
   },

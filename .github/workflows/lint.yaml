@@ -30,7 +30,7 @@ jobs:
       - name: "Build"
         if: ${{ !cancelled() }}
         run: |
-          npm run build
+          npm run docs:deploy
 
       #- name: "ESLint"
       #  if: ${{ !cancelled() }}

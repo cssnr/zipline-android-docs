@@ -47,7 +47,7 @@ jobs:
 
       - name: "Run Build"
         run: |
-          npm run build
+          npm run docs:deploy
 
       - name: "Upload Pages Artifact"
         uses: actions/upload-pages-artifact@v4
