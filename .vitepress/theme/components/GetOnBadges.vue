@@ -41,30 +41,8 @@ if (typeof props.animation === 'string') {
 }
 </script>
 
-<style scoped>
-.badges {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-@media (min-width: 767px) {
-  .badges {
-    flex-direction: row;
-  }
-}
-
-.badges a {
-  display: inline-block;
-  transition: transform 0.3s;
-}
-.badges a:hover {
-  transform: scale(1.05);
-}
-</style>
-
 <template>
-  <div class="badges" :style="badgeStyle">
+  <div class="get-on-badges" :style="badgeStyle">
     <template v-for="(badge, index) in badges" :key="badge.title">
       <div>
         <a :title="badge.title" :href="badge.href" target="_blank" rel="noopener">
@@ -76,3 +54,25 @@ if (typeof props.animation === 'string') {
     </template>
   </div>
 </template>
+
+<style scoped>
+.get-on-badges {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  .get-on-badges {
+    flex-direction: row;
+  }
+}
+
+.get-on-badges a {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+.get-on-badges a:hover {
+  transform: scale(1.05);
+}
+</style>
