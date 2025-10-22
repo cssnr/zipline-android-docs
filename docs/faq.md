@@ -68,7 +68,7 @@ Don't see your question here? Please [let us know](support.md) what it is.
 
 If everything else fails, please [let us know](support.md) what happened.
 
-<style scoped>
+<style module>
 .faq-page summary {
     color: var(--vp-c-brand-1);
 }
