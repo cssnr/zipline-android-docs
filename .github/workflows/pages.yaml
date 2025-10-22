@@ -97,6 +97,13 @@ jobs:
     needs: deploy
 
     steps:
+      - name: "Purge Cache"
+        if: ${{ env.purge-domain != '' }}
+        uses: cssnr/cloudflare-purge-cache-action@v2
+        with:
+          domains: ${{ env.purge-domain }}
+          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
       - name: "Algolia Crawler"
         if: ${{ env.crawler-id != '' }}
         uses: cssnr/algolia-crawler-action@v1
@@ -104,13 +111,6 @@ jobs:
           crawler_id: ${{ env.crawler-id }}
           crawler_user_id: ${{ secrets.CRAWLER_USER_ID }}
           crawler_api_key: ${{ secrets.CRAWLER_API_KEY }}
-
-      - name: "Purge Cache"
-        if: ${{ env.purge-domain != '' }}
-        uses: cssnr/cloudflare-purge-cache-action@v2
-        with:
-          domains: ${{ env.purge-domain }}
-          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: "Send Post-Deploy Notification"
         if: ${{ failure() }}
