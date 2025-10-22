@@ -1,21 +1,18 @@
 name: "Pages"
 
 on:
-  push:
-    branches:
-      - "master"
-    paths:
-      - "docs/**"
-      - ".vitepress/**"
-      - "package.json"
-      - ".github/workflows/pages.yaml"
   workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/pages.yaml"
+      - ".vitepress/**"
+      - "docs/**"
+      - "package*.json"
 
 env:
-  CRAWLER_ID: "17f838e0-08c4-4612-bb4b-2ee47218a3b1"
-
-permissions:
-  contents: read
+  crawler-id: "17f838e0-08c4-4612-bb4b-2ee47218a3b1"
+  purge-domain: "cssnr.com"
 
 concurrency:
   group: pages
@@ -33,10 +30,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "Setup Node 22"
-        uses: actions/setup-node@v5
+      - name: "Debug CTX github"
+        continue-on-error: true
+        env:
+          GITHUB_CTX: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CTX"
+
+      - name: "Setup Node 24"
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
 
       - name: "Configure Pages"
         uses: actions/configure-pages@v5
@@ -85,6 +88,7 @@ jobs:
         uses: sarisia/actions-status-discord@v1
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          description: ${{ steps.deployment.outputs.page_url }}
 
   post:
     name: "Post-Deploy"
@@ -93,10 +97,24 @@ jobs:
     needs: deploy
 
     steps:
+      - name: "Purge Cache"
+        if: ${{ env.purge-domain != '' }}
+        uses: cssnr/cloudflare-purge-cache-action@v2
+        with:
+          domains: ${{ env.purge-domain }}
+          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
       - name: "Algolia Crawler"
-        if: ${{ env.CRAWLER_ID != '' }}
+        if: ${{ env.crawler-id != '' }}
         uses: cssnr/algolia-crawler-action@v1
         with:
-          crawler_id: ${{ env.CRAWLER_ID }}
+          crawler_id: ${{ env.crawler-id }}
           crawler_user_id: ${{ secrets.CRAWLER_USER_ID }}
           crawler_api_key: ${{ secrets.CRAWLER_API_KEY }}
+
+      - name: "Send Post-Deploy Notification"
+        if: ${{ failure() }}
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          description: ${{ github.event.repository.html_url }}/actions/runs/${{ github.run_id }}

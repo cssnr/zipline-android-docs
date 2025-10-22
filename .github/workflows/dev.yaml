@@ -1,0 +1,108 @@
+name: "Dev"
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: ["master"]
+    paths:
+      - ".github/workflows/dev.yaml"
+      - ".vitepress/**"
+      - "docs/**"
+      - "package*.json"
+
+env:
+  SSH_HOST: ${{ secrets.DEV_DEPLOY_HOST }}
+  SSH_PORT: ${{ secrets.DEV_DEPLOY_PORT }}
+  SSH_USER: ${{ secrets.DEV_DEPLOY_USER }}
+  SSH_PASS: ${{ secrets.DEV_DEPLOY_PASS }}
+  SSH_DEST: /static
+
+concurrency:
+  group: dev
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: "Build"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    if: ${{ !contains(github.event.head_commit.message, '#nodev') }}
+
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: "Debug CTX github"
+        continue-on-error: true
+        env:
+          GITHUB_CTX: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CTX"
+
+      - name: "Setup Node 24"
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: "Install Dependencies"
+        run: |
+          npm ci
+
+      - name: "Run Build"
+        run: |
+          npm run docs:deploy
+
+      - name: "Upload Artifact"
+        uses: actions/upload-artifact@v4
+        with:
+          name: "artifact"
+          path: .vitepress/dist
+
+  deploy:
+    name: "Deploy"
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    needs: build
+
+    environment:
+      name: dev
+      url: https://dev-static.cssnr.com/
+
+    steps:
+      - name: "Download Artifact"
+        uses: actions/download-artifact@v5
+        with:
+          name: "artifact"
+
+      - name: "Debug Artifact"
+        continue-on-error: true
+        run: |
+          tree .
+
+      - name: "No Robots"
+        run: |
+          cat <<EOF > robots.txt
+          User-agent: *
+          Disallow: /
+          EOF
+
+      - name: "Setup SSH"
+        run: |
+          mkdir -p "${HOME}/.ssh" && chmod 0700 "${HOME}/.ssh"
+          ssh-keyscan -p "${{ env.SSH_PORT }}" -H "${{ env.SSH_HOST }}" \
+            | tee -a "${HOME}/.ssh/known_hosts"
+
+      - name: "Deploy Artifact"
+        env:
+          SSHPASS: ${{ env.SSH_PASS }}
+        run: |
+          sshpass -e rsync -aPvh --delete -e 'ssh -p ${{ env.SSH_PORT }}' \
+            ./ "${{ env.SSH_USER }}"@"${{ env.SSH_HOST }}":"${{ env.SSH_DEST }}"
+
+      - name: "Send Discord Notification"
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          description: "https://dev-static.cssnr.com/"
