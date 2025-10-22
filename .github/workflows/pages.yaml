@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    if: ${{ !contains(github.event.head_commit.message, '#nodeploy') }}
+
     steps:
       - name: "Checkout"
         uses: actions/checkout@v5
@@ -101,7 +103,7 @@ jobs:
         if: ${{ env.purge-domain != '' }}
         uses: cssnr/cloudflare-purge-cache-action@v2
         with:
-          domains: ${{ env.purge-domain }}
+          zones: ${{ env.purge-domain }}
           token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: "Algolia Crawler"
