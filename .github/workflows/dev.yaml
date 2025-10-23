@@ -35,11 +35,8 @@ jobs:
       contents: read
     with:
       name: "dev"
-      url: "https://dev-static.cssnr.com/github-projects"
-      path: "github-projects"
+      url: "https://dev-static.cssnr.com/"
       robots: true
-      #artifact: "artifact"
-      #dest: "/static"
     secrets:
       host: ${{ secrets.DEV_DEPLOY_HOST }}
       port: ${{ secrets.DEV_DEPLOY_PORT }}
