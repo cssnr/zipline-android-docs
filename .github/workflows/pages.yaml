@@ -21,49 +21,14 @@ concurrency:
 jobs:
   build:
     name: "Build"
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     if: ${{ !contains(github.event.head_commit.message, '#nodeploy') }}
-
-    steps:
-      - name: "Checkout"
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-
-      - name: "Debug CTX github"
-        continue-on-error: true
-        env:
-          GITHUB_CTX: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CTX"
-
-      - name: "Setup Node 24"
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-
-      - name: "Configure Pages"
-        uses: actions/configure-pages@v5
-
-      - name: "Install Dependencies"
-        run: |
-          npm ci
-
-      - name: "Run Build"
-        run: |
-          npm run docs:deploy
-
-      - name: "Upload Pages Artifact"
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .vitepress/dist
-
-      - name: "Send Failure Notification"
-        if: ${{ failure() }}
-        uses: sarisia/actions-status-discord@v1
-        with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+    uses: cssnr/workflows/.github/workflows/npm-build.yaml@master
+    permissions:
+      contents: read
+    with:
+      build: "npm run docs:deploy"
+      path: ".vitepress/dist"
+      pages: true
 
   deploy:
     name: "Deploy"
