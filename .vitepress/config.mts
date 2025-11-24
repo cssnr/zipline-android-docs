@@ -67,6 +67,7 @@ export default defineConfig({
           { text: 'Documentation GitHub', link: settings.docs_repo },
           { text: 'Diced/Zipline GitHub', link: 'https://github.com/diced/zipline' },
           { text: 'Browser Addon', link: 'https://github.com/cssnr/zipline-extension' },
+          { text: 'Python CLI', link: 'https://github.com/cssnr/zipline-cli' },
           { text: 'Developer Site', link: 'https://cssnr.github.io/' },
           { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
         ],
@@ -77,6 +78,7 @@ export default defineConfig({
       { icon: 'github', link: settings.source_repo },
       { icon: 'vitepress', link: settings.docs_repo },
       { icon: 'googlechrome', link: 'https://github.com/cssnr/zipline-extension' },
+      { icon: 'python', link: 'https://zipline-cli.cssnr.com/' },
       { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
       { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {

@@ -1,17 +1,17 @@
-name: "Dev"
+name: "Preview"
 
 on:
   workflow_dispatch:
   push:
-    branches-ignore: ["master"]
+    branches-ignore: [master]
     paths:
-      - ".github/workflows/dev.yaml"
+      - ".github/workflows/preview.yaml"
       - ".vitepress/**"
       - "docs/**"
       - "package*.json"
 
 concurrency:
-  group: dev
+  group: preview
   cancel-in-progress: true
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
     permissions:
       contents: read
     with:
-      name: "dev"
+      name: "preview"
       url: "https://dev-static.cssnr.com/"
       robots: true
     secrets:
