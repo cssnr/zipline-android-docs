@@ -1,4 +1,5 @@
-[![GitHub Deployments](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/github-pages?logo=github&label=deploy)](https://github.com/cssnr/zipline-android-docs/deployments)
+[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/github-pages?logo=vitepress&label=pages)](https://github.com/cssnr/zipline-android-docs/deployments/github-pages)
+[![Deployments Preview](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/preview?logo=vitepress&label=preview)](https://github.com/cssnr/zipline-android-docs/deployments/preview)
 [![GitHub Pages](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/pages.yaml?logo=cachet&label=pages)](https://github.com/cssnr/zipline-android-docs/actions/workflows/pages.yaml)
 [![GitHub Lint](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/zipline-android-docs/actions/workflows/lint.yaml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/zipline-android-docs/pulse)
