@@ -1,10 +1,10 @@
-[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/github-pages?logo=vitepress&label=pages)](https://github.com/cssnr/zipline-android-docs/deployments/github-pages)
-[![Deployments Preview](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/preview?logo=vitepress&label=preview)](https://github.com/cssnr/zipline-android-docs/deployments/preview)
+[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/github-pages?logo=vitepress&logoColor=white&label=pages)](https://github.com/cssnr/zipline-android-docs/deployments/github-pages)
+[![Deployments Preview](https://img.shields.io/github/deployments/cssnr/zipline-android-docs/preview?logo=vitepress&logoColor=white&label=preview)](https://github.com/cssnr/zipline-android-docs/deployments/preview)
 [![GitHub Pages](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/pages.yaml?logo=cachet&label=pages)](https://github.com/cssnr/zipline-android-docs/actions/workflows/pages.yaml)
 [![GitHub Lint](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-android-docs/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/zipline-android-docs/actions/workflows/lint.yaml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=vitepress&logoColor=white&label=updated)](https://github.com/cssnr/zipline-android-docs/pulse)
-[![GitHub Contributors](https://img.shields.io/github/contributors/cssnr/zipline-android-docs?logo=github)](https://github.com/cssnr/zipline-android-docs/graphs/contributors)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-android-docs?logo=github&label=updated)](https://github.com/cssnr/zipline-android-docs/pulse)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zipline-android-docs?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/zipline-android-docs)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/zipline-android-docs?logo=github)](https://github.com/cssnr/zipline-android-docs/graphs/contributors)
 [![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/zipline-android?logo=github)](https://github.com/cssnr/zipline-android/discussions)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/zipline-android?style=flat&logo=github)](https://github.com/cssnr/zipline-android/stargazers)
 [![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
@@ -15,7 +15,7 @@
 
 Documentation for the [Zipline Android](https://github.com/cssnr/zipline-android) Application.
 
-- https://zipline-android.cssnr.com/
+- <https://zipline-android.cssnr.com/>
 
 These [docs](docs) are **written in plain text** using Markdown and built with [VitePress](https://vitepress.dev/).
 
@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-The site should now be available at: http://localhost:5173/
+The site should now be available at: <http://localhost:5173/>
 
 - [VitePress CLI Reference](https://vitepress.dev/reference/cli)
 - [VitePress Markdown Reference](https://vitepress.dev/guide/markdown)
@@ -48,5 +48,12 @@ Please consider making a donation to support the development of this project
 and [additional](https://cssnr.com/) open source projects.
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/cssnr)
+
+More Related Products:
+
+- [Django Files Server](https://github.com/django-files/django-files?tab=readme-ov-file#readme)
+- [Django Files iOS App](https://github.com/django-files/ios-client?tab=readme-ov-file#readme)
+- [Django Files Android App](https://github.com/django-files/android-client?tab=readme-ov-file#readme)
+- [Django Files Web Extension](https://github.com/django-files/web-extension?tab=readme-ov-file#readme)
 
 For a full list of current projects visit: [https://cssnr.github.io/](https://cssnr.github.io/)
