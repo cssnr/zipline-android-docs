@@ -6,6 +6,11 @@ next:
 
 # Support
 
+[![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests)
+[![Issues](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/cssnr/zipline-android/issues)
+[![Discussions](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=theconversation)](https://github.com/cssnr/zipline-android/discussions)
+[![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
+
 If you have any troubles using the application, or run into any issues, please let us know!
 
 Every bug that can be reproduced will be fixed and Feature Request are highly desired.
@@ -56,3 +61,17 @@ View more Zipline products.
 - [Zipline CLI](https://zipline-cli.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-cli?tab=readme-ov-file#readme)
 - [Zipline Web Extension](https://zipline-extension.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-extension?tab=readme-ov-file#readme)
 - [Zipline Android Application](https://zipline-android.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-android?tab=readme-ov-file#readme)
+
+&nbsp;
+
+More information available at: [https://cssnr.com/](https://cssnr.com/)
+
+[![Support on Ko-fi](https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a01c01ea9191809398c_support_me_on_kofi_blue.png){ width="360" }](https://ko-fi.com/cssnr)
+
+<a href="https://github.com/cssnr/zipline-android/stargazers">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cssnr/zipline-android&type=date&legend=bottom-right&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cssnr/zipline-android&type=date&legend=bottom-right" />
+   <img id="star-history" alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/zipline-android&type=date&legend=bottom-right" />
+ </picture>
+</a>
