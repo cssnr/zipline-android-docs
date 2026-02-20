@@ -9,6 +9,12 @@ pageClass: faq-page
 If none of these [Questions](#questions-and-answers) or [Troubleshooting Steps](#troubleshooting-steps) help, please [reach out to support](support.md).
 
 ::: warning IMPORTANT
+Zipline Server [v4.4.1](https://github.com/diced/zipline/releases/latest) requires Client [v1.0.32](https://github.com/cssnr/zipline-android/releases/latest) or greater to Authenticate.
+
+For more details see the release notes, [release v1.0.32](https://github.com/cssnr/zipline-android/releases/tag/1.0.32)
+:::
+
+::: warning IMPORTANT
 Zipline Server [v4.3.0](https://github.com/diced/zipline/releases/latest) requires Client [v1.0.29](https://github.com/cssnr/zipline-android/releases/latest) or greater to Upload Files.
 
 For more details or to provide feedback, [join the discussion on GitHub](https://github.com/cssnr/zipline-android/discussions/87)
