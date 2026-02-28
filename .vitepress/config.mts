@@ -48,6 +48,8 @@ export default defineConfig({
     ['meta', { property: 'twitter:description', content: settings.description.short }],
     ['meta', { property: 'twitter:image', content: settings.image }],
     ['meta', { property: 'twitter:image:alt', content: settings.title }],
+
+    // ['script', { src: 'https://keepandroidopen.org/banner.js?size=mini&id=android' }],
   ],
 
   cleanUrls: true,
