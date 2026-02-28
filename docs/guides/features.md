@@ -4,7 +4,7 @@ A Native Kotlin Android Application with a Mobile First Design.
 Everything is cached and images are not downloaded over metered connections unless enabled.
 User profile and stats widget are updated in the background with a user configurable task.
 
-Please submit a [Feature Request](https://github.com/cssnr/zipline-android/discussions/categories/feature-requests) for any features you would like to see.
+Please submit a [Feature Request](https://github.com/cssnr/zipline-android/issues/new?template=1-feature.yaml) for any features you would like to see.
 
 [[toc]]
 
