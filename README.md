@@ -14,6 +14,10 @@
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
+> [!CAUTION]  
+> :rotating_light: **Free and Open-Source Android is under threat!**  
+> Google will turn Android into a locked-down platform, restricting your essential freedom to install apps of your choice. Make your voice heard – [Keep Android Open](https://keepandroidopen.org/).
+
 # Zipline Android Documentation
 
 Documentation for the [Zipline Android](https://github.com/cssnr/zipline-android) Application.
@@ -60,3 +64,11 @@ More Related Products:
 - [Django Files Web Extension](https://github.com/django-files/web-extension?tab=readme-ov-file#readme)
 
 For a full list of current projects visit: [https://cssnr.github.io/](https://cssnr.github.io/)
+
+<a href="https://github.com/cssnr/zipline-android/stargazers">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cssnr/zipline-android%2Ccssnr/zipline-extension%2Ccssnr/zipline-cli&type=date&legend=top-left&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cssnr/zipline-android%2Ccssnr/zipline-extension%2Ccssnr/zipline-cli&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/zipline-android%2Ccssnr/zipline-extension%2Ccssnr/zipline-cli&type=date&legend=top-left" />
+ </picture>
+</a>

@@ -88,9 +88,9 @@ If there are any features you want to see, [please let us know](support.md)...
 
 <a href="https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left" target="_blank" rel="noopener">
 <picture>
-    <source media="(prefers-color-scheme: dark)" :srcset="'https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&theme=dark&legend=top-left'" />
+    <source media="(prefers-color-scheme: dark)" :srcset="'https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left&theme=dark'" />
     <source media="(prefers-color-scheme: light)" :srcset="'https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left'" />
-    <img class="starHistory" alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left" />
+    <img :class="$style.starHistory" alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left" />
 </picture>
 </a>
 
@@ -115,6 +115,9 @@ If there are any features you want to see, [please let us know](support.md)...
   vertical-align: middle;
 }
 
+</style>
+
+<style module>
 .starHistory {
     border-radius: 12px;
     width: 100%;
