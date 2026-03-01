@@ -7,6 +7,10 @@ on:
   push:
     branches: [master]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: "Lint"
@@ -18,11 +22,17 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v6
 
+      - name: "Debug event.json"
+        continue-on-error: true
+        run: cat "${GITHUB_EVENT_PATH}"
       - name: "Debug CTX github"
         continue-on-error: true
         env:
           GITHUB_CTX: ${{ toJSON(github) }}
         run: echo "$GITHUB_CTX"
+      - name: "Debug Environment"
+        continue-on-error: true
+        run: env
 
       - name: "Setup Node 24"
         uses: actions/setup-node@v6
@@ -38,7 +48,7 @@ jobs:
         run: |
           npm run docs:deploy
 
-      #- name: "ESLint"
+      #- name: "esLint"
       #  if: ${{ !cancelled() }}
       #  run: |
       #    npm run lint

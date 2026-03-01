@@ -74,7 +74,27 @@ Don't see your question here? Please [let us know](support.md) what it is.
 
 If everything else fails, please [let us know](support.md) what happened.
 
-<style module>
+## App Comparison
+
+These are other Android applications designed to work with the Zipline server.
+
+| GitHub&nbsp;Repository                                                              | Program&nbsp;Language                                                                                                                                                             |                                                                                                          APK Size                                                                                                          |                                                                                     Repo Size                                                                                     |                                                                                                                Downloads                                                                                                                |
+| :---------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [cssnr/zipline-android](https://github.com/cssnr/zipline-android)                   | [![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/zipline-android)](https://github.com/cssnr/zipline-android?tab=readme-ov-file#readme)                   |             [![APK Size](https://badges.cssnr.com/gh/release/cssnr/zipline-android/latest/asset/app-release.apk/size?label=&icon=&color=darkgreen)](https://github.com/cssnr/zipline-android/releases/latest)              |          [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zipline-android?label=)](https://github.com/cssnr/zipline-android?tab=readme-ov-file#readme)          |          [![GitHub Downloads](https://img.shields.io/github/downloads/cssnr/zipline-android/total?logo=vite&logoColor=white&label=)](https://tooomm.github.io/github-release-stats/?username=cssnr&repository=zipline-android)          |
+| [Stef-00012/Zipline-Android-App](https://github.com/Stef-00012/Zipline-Android-App) | [![GitHub Top Language](https://img.shields.io/github/languages/top/Stef-00012/Zipline-Android-App)](https://github.com/Stef-00012/Zipline-Android-App?tab=readme-ov-file#readme) |    [![APK Size](https://badges.cssnr.com/gh/release/Stef-00012/Zipline-Android-App/latest/asset/app-release.apk/size?label=&icon=&color=darkgreen)](https://github.com/Stef-00012/Zipline-Android-App/releases/latest)     | [![GitHub Repo Size](https://img.shields.io/github/repo-size/Stef-00012/Zipline-Android-App?label=)](https://github.com/Stef-00012/Zipline-Android-App?tab=readme-ov-file#readme) | [![GitHub Downloads](https://img.shields.io/github/downloads/Stef-00012/Zipline-Android-App/total?logo=vite&logoColor=white&label=)](https://tooomm.github.io/github-release-stats/?username=Stef-00012&repository=Zipline-Android-App) |
+| [nikolanovoselec/zipline-native](https://github.com/nikolanovoselec/zipline-native) | [![GitHub Top Language](https://img.shields.io/github/languages/top/nikolanovoselec/zipline-native)](https://github.com/nikolanovoselec/zipline-native?tab=readme-ov-file#readme) | [![APK Size](https://badges.cssnr.com/gh/release/nikolanovoselec/zipline-native/latest/asset/app-x86_64-release.apk/size?label=&icon=&color=darkgreen)](https://github.com/nikolanovoselec/zipline-native/releases/latest) | [![GitHub Repo Size](https://img.shields.io/github/repo-size/nikolanovoselec/zipline-native?label=)](https://github.com/nikolanovoselec/zipline-native?tab=readme-ov-file#readme) | [![GitHub Downloads](https://img.shields.io/github/downloads/nikolanovoselec/zipline-native/total?logo=vite&logoColor=white&label=)](https://tooomm.github.io/github-release-stats/?username=nikolanovoselec&repository=zipline-native) |
+
+If there are any features you want to see, [please let us know](support.md)...
+
+<a href="https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left" target="_blank" rel="noopener">
+<picture>
+    <source media="(prefers-color-scheme: dark)" :srcset="'https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left&theme=dark'" />
+    <source media="(prefers-color-scheme: light)" :srcset="'https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left'" />
+    <img :class="$style.starHistory" alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/zipline-android,Stef-00012/Zipline-Android-App,nikolanovoselec/zipline-native&type=date&legend=top-left" />
+</picture>
+</a>
+
+<style scoped>
 .faq-page summary {
     color: var(--vp-c-brand-1);
 }
@@ -83,5 +103,23 @@ If everything else fails, please [let us know](support.md) what happened.
     /*color: var(--vp-c-indigo-2);*/
     /*text-decoration: underline;*/
     /*text-decoration-thickness: 1px;*/
+}
+
+.faq-page table img {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  max-width: none;
+  max-height: none;
+  margin-right: 0;
+  vertical-align: middle;
+}
+
+</style>
+
+<style module>
+.starHistory {
+    border-radius: 12px;
+    width: 100%;
 }
 </style>
