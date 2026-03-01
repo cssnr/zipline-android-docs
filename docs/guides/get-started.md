@@ -10,6 +10,12 @@ Get started by [installing](#install) the application and [logging](#login) into
 
 You can view [screenshots 📸](features.md#screenshots) on the [features](features.md) page.
 
+::: danger :rotating_light: **Free and Open-Source Android is under threat!**
+
+Google will turn Android into a locked-down platform, restricting your essential freedom to install apps of your choice. Make your voice heard – [Keep Android Open](https://keepandroidopen.org/).
+
+:::
+
 ## Install
 
 To begin install the application on your device _(Android 8+ API 26+)_.

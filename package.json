@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "docs": "npm run docs:dev",
     "docs:build": "vitepress build .",
@@ -14,6 +15,6 @@
     "vitepress": "^1.6.4"
   },
   "devDependencies": {
-    "prettier": "^3.7.3"
+    "prettier": "^3.8.1"
   }
 }

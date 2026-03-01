@@ -1,0 +1,4 @@
+# Fine-tune GitHub's language detection
+docs/**/*.md linguist-detectable=true
+docs/**/*.md linguist-documentation=false
+.vitepress/config.mts linguist-vendored
