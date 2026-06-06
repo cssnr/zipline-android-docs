@@ -3,7 +3,7 @@ name: "Pages"
 on:
   workflow_dispatch:
   push:
-    branches: ["master"]
+    branches: [master, main]
     paths:
       - ".github/workflows/pages.yaml"
       - ".vitepress/**"
@@ -15,7 +15,7 @@ env:
   purge-domain: "cssnr.com"
 
 concurrency:
-  group: pages
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -29,6 +29,10 @@ jobs:
       build: "npm run docs:deploy"
       path: ".vitepress/dist"
       pages: true
+    secrets:
+      webhook: ${{ secrets.DISCORD_WEBHOOK }}
+      ai_chat_api: ${{ secrets.AI_CHAT_API }}
+      ai_chat_auth: ${{ secrets.AI_CHAT_AUTH }}
 
   deploy:
     name: "Deploy"
@@ -58,7 +62,7 @@ jobs:
           description: ${{ steps.deployment.outputs.page_url }}
 
   post:
-    name: "Post-Deploy"
+    name: "Post"
     runs-on: ubuntu-latest
     timeout-minutes: 5
     needs: deploy
@@ -79,7 +83,7 @@ jobs:
           crawler_user_id: ${{ secrets.CRAWLER_USER_ID }}
           crawler_api_key: ${{ secrets.CRAWLER_API_KEY }}
 
-      - name: "Send Post-Deploy Notification"
+      - name: "Send Discord Notification"
         if: ${{ failure() }}
         uses: sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708 # v1.16.0
         with:
