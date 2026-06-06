@@ -1,41 +1,42 @@
 :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(120deg, #ff00ff, #18e7ff);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #ff00ff, #18e7ff);
 
-    --vp-home-hero-image-background-image: linear-gradient(0deg, #344398 80%, #344398 50%);
-    --vp-home-hero-image-filter: blur(56px);
+  --vp-home-hero-image-background-image: linear-gradient(0deg, #344398 80%, #344398 50%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+@supports (scrollbar-gutter: stable) {
+  /* Note: local search is: 768px */
+  @media (min-width: 769px) {
+    html {
+      scrollbar-gutter: stable;
+    }
+    html:has(:fullscreen) {
+      scrollbar-gutter: auto;
+    }
+  }
 }
 
 body {
-    overflow-y: scroll;
-    overflow-x: hidden; /* for animate.css */
+  overflow-y: scroll;
+  overflow-x: hidden; /* for animate.css */
 }
 
 summary {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 table th {
-    text-wrap: nowrap;
+  text-wrap: nowrap;
 }
 
 .search-keywords {
-    display: none;
+  display: none;
 }
-
-/*!* NOTE: This is a "fix" for the search modal content shift *!*/
-/*!* NOTE: This fix has bugs on fullscreen elements like swiper *!*/
-/*@supports (scrollbar-gutter: stable) {*/
-/*    !* Note: local search is: 768px *!*/
-/*    @media (min-width: 769px) {*/
-/*        html {*/
-/*            scrollbar-gutter: stable;*/
-/*        }*/
-/*    }*/
-/*}*/
 
 .vp-doc p > img,
 .vp-doc p > a > img {
-    display: inline-block;
-    margin-right: 8px;
+  display: inline-block;
+  margin-right: 8px;
 }

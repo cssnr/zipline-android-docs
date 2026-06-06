@@ -3,7 +3,7 @@ name: "Preview"
 on:
   workflow_dispatch:
   push:
-    branches-ignore: [master]
+    branches-ignore: [master, main]
     paths:
       - ".github/workflows/preview.yaml"
       - ".vitepress/**"
@@ -11,13 +11,13 @@ on:
       - "package*.json"
 
 concurrency:
-  group: preview
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
     name: "Build"
-    if: ${{ !contains(github.event.head_commit.message, '#nodev') }}
+    if: ${{ !contains(github.event.head_commit.message, '#nopreview') }}
     uses: cssnr/workflows/.github/workflows/npm-build.yaml@master
     permissions:
       contents: read
@@ -26,6 +26,8 @@ jobs:
       path: ".vitepress/dist"
     secrets:
       webhook: ${{ secrets.DISCORD_WEBHOOK }}
+      ai_chat_api: ${{ secrets.AI_CHAT_API }}
+      ai_chat_auth: ${{ secrets.AI_CHAT_AUTH }}
 
   deploy:
     name: "Deploy"

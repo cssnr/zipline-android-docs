@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import vitePressInstructions from '@cssnr/vitepress-chat/instructions-plugin'
 
 const settings = {
   title: 'Zipline Android',
@@ -22,6 +23,7 @@ export default defineConfig({
     server: {
       allowedHosts: true,
     },
+    plugins: [vitePressInstructions({ exclude: ['index.md'], outputFilename: 'llms.txt' })],
   },
 
   title: settings.title,

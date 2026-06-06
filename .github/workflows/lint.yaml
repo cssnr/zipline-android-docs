@@ -2,10 +2,9 @@ name: "Lint"
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [master]
   push:
-    branches: [master]
+    branches: [master, main]
+  pull_request:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -34,29 +33,25 @@ jobs:
         continue-on-error: true
         run: env
 
-      - name: "Setup Node 24"
+      - name: "Setup Node"
         uses: actions/setup-node@v6
         with:
           node-version: 24
 
       - name: "Install"
-        run: |
-          npm ci
+        run: npm ci
 
       - name: "Build"
         if: ${{ !cancelled() }}
-        run: |
-          npm run docs:deploy
+        run: npm run docs:deploy
 
-      #- name: "esLint"
+      #- name: "eslint"
       #  if: ${{ !cancelled() }}
-      #  run: |
-      #    npm run lint
+      #  run: npm run lint
 
       - name: "prettier"
         if: ${{ !cancelled() }}
-        run: |
-          npm run prettier:check
+        run: npm run prettier:check
 
       - name: "yamllint"
         if: ${{ !cancelled() }}
@@ -73,17 +68,3 @@ jobs:
         uses: cssnr/actionlint-action@v1
         with:
           shellcheck_opts: -e SC2129
-
-      # Note: this will most likely be split into two different workflows...
-      - name: "Check Docs Changes"
-        id: docs-changed
-        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
-        with:
-          files: |
-            docs/**
-            package*.json
-
-      - name: "Verify Docs Build"
-        if: steps.docs-changed.outputs.any_changed == 'true'
-        run: |
-          npm run docs:deploy

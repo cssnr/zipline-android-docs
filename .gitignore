@@ -1,3 +1,4 @@
+# Generic
 .idea/
 *.iml
 .vscode/
@@ -5,4 +6,12 @@ cache/
 dist/
 build/
 node_modules/
-contributors.json
+eslint_report.json
+*.log
+*.tgz
+*.zip
+# App
+.secrets
+.vars
+.env
+.env.development
