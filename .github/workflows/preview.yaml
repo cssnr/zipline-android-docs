@@ -18,7 +18,7 @@ jobs:
   build:
     name: "Build"
     if: ${{ !contains(github.event.head_commit.message, '#nopreview') }}
-    uses: cssnr/workflows/.github/workflows/npm-build.yaml@build
+    uses: cssnr/workflows/.github/workflows/npm-build.yaml@master
     permissions:
       contents: read
     with:
