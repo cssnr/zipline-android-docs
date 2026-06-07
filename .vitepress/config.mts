@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import instructions from '@cssnr/vitepress-chat/instructions'
+import instructions from 'vitepress-chat/instructions'
 
 const settings = {
   title: 'Zipline Android',
