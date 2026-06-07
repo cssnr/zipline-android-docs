@@ -8,7 +8,7 @@ import GetOnBadges from './components/GetOnBadges.vue'
 import VPSwiper from '@cssnr/vitepress-swiper'
 import '@cssnr/vitepress-swiper/style.css'
 
-import VitePressChat from '@cssnr/vitepress-chat'
+import chat from '@cssnr/vitepress-chat'
 import '@cssnr/vitepress-chat/style.css'
 
 // https://vitepress.dev/guide/extending-default-theme
@@ -19,10 +19,10 @@ export default {
 
   // Layout: Layout,
 
-  ...VitePressChat(Layout, {
+  ...chat(DefaultTheme, {
     api: import.meta.env.VITE_AI_API,
     headers: import.meta.env.VITE_AI_AUTH ? { Authorization: import.meta.env.VITE_AI_AUTH } : undefined,
-    instructionsFile: 'llms.txt',
+    filePath: 'llms.txt',
   }),
 
   enhanceApp({ app }) {
