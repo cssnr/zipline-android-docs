@@ -18,16 +18,13 @@ jobs:
   build:
     name: "Build"
     if: ${{ !contains(github.event.head_commit.message, '#nopreview') }}
-    uses: cssnr/workflows/.github/workflows/npm-build.yaml@master
+    uses: cssnr/workflows/.github/workflows/npm-build.yaml@build
     permissions:
       contents: read
     with:
       build: "npm run docs:deploy"
       path: ".vitepress/dist"
-    secrets:
-      webhook: ${{ secrets.DISCORD_WEBHOOK }}
-      ai_chat_api: ${{ secrets.AI_CHAT_API }}
-      ai_chat_auth: ${{ secrets.AI_CHAT_AUTH }}
+    secrets: inherit
 
   deploy:
     name: "Deploy"
