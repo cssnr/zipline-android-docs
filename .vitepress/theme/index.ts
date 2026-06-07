@@ -8,8 +8,8 @@ import GetOnBadges from './components/GetOnBadges.vue'
 import VPSwiper from '@cssnr/vitepress-swiper'
 import '@cssnr/vitepress-swiper/style.css'
 
-import chat from '@cssnr/vitepress-chat'
-import '@cssnr/vitepress-chat/style.css'
+import chat from 'vitepress-chat'
+import 'vitepress-chat/style.css'
 
 // https://vitepress.dev/guide/extending-default-theme
 // noinspection JSUnusedGlobalSymbols
@@ -19,7 +19,7 @@ export default {
 
   // Layout: Layout,
 
-  ...chat(DefaultTheme, {
+  ...chat(Layout, {
     api: import.meta.env.VITE_AI_API,
     headers: import.meta.env.VITE_AI_AUTH ? { Authorization: import.meta.env.VITE_AI_AUTH } : undefined,
     filePath: 'llms.txt',
