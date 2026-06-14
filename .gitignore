@@ -15,3 +15,4 @@ eslint_report.json
 .vars
 .env
 .env.development
+contributors.json
