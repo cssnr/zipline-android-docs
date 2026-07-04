@@ -6,6 +6,7 @@
     "docs:deploy": "npm run docs:build",
     "docs:dev": "vitepress dev .",
     "docs:preview": "vitepress preview .",
+    "prettier": "npm run prettier:write",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write ."
   },
@@ -15,7 +16,7 @@
     "vitepress": "^1.6.4"
   },
   "devDependencies": {
-    "prettier": "^3.8.4",
-    "vitepress-chat": "^0.0.2"
+    "prettier": "^3.9.4",
+    "vitepress-chat": "^0.0.3"
   }
 }
