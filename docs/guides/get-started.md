@@ -16,22 +16,26 @@ Google will turn Android into a locked-down platform, restricting your essential
 
 :::
 
+_The GitHub APK has been registered with Google's [Android developer verification](https://developer.android.com/developer-verification)._
+
 ## Install
 
-To begin install the application on your device _(Android 8+ API 26+)_.
+To begin, install the application on your device _(Android 8+ API 26+)_.
 
 <GetOnBadges
 :animation="['animate__lightSpeedInLeft', 'animate__jackInTheBox', 'animate__lightSpeedInRight']"
 />
-
-_Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
 
 If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr.dev/) is recommended.
 
 ::: details View QR Codes 📸
 [![Get on GitHub](/images/qr/github.png)](https://github.com/django-files/android-client/releases/latest/download/app-release.apk)
 
+<br />
+
 [![Get on Obtainium](/images/qr/obtainium.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/cssnr/zipline-android)
+
+<br />
 
 [![Get on Google](/images/qr/google.png)](https://play.google.com/store/apps/details?id=org.cssnr.zipline)
 :::
@@ -41,6 +45,21 @@ If you are unsure which provider to choose, [Obtainium](https://obtainium.imranr
 
 _To install the apk directly you may need to allow installation from unknown sources.
 For more information see, [Release through a website](https://developer.android.com/studio/publish#publishing-website)._
+
+::: tip Google Play Notice
+_Note: Google Play is in Closed Testing. To join please see [this discussion](https://github.com/cssnr/zipline-android/discussions/25)._
+
+::: details More Info
+Google Play requires at minimum 12 active testers for 2 weeks. They also track tester usage via Google Play installs.
+Most of the testers did not install through [Google Play](https://play.google.com/store/apps/details?id=org.cssnr.zipline) and therefore could not be tracked by Google.
+Because of this, Google rejected the Play Store application for not enough tester usage.
+:::
+
+```
+EE:11:BC:4B:22:05:85:EF:A1:17:CE:09:AA:43:EA:AF:08:8D:4D:D8:7D:F0:29:2F:E4:40:B2:AC:BC:0F:B7:E6
+```
+
+[_How to Verify an APK Signature_](https://developer.android.com/tools/apksigner#usage-verify)
 
 ## Login
 
